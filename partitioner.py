@@ -154,11 +154,46 @@ class partitioner:
             text = re.sub("\\n","\n",text)
             text = re.sub("\\t","\t",text)
         return text
-                
+    
+    def testFit(self):
+        if self.method == "stochastic":
+            print("Can't test fit goodness on stochastic partitions!")
+            sys.exit()
+        else:
+            self.rsq = "NA"
+            sizes = {}
+            for phrase in self.counts:
+                count = self.counts[phrase]
+                sizes.setdefault(count,0)
+                sizes[count] += 1
+            pairs = [[size,sizes[size]] for size in sizes]
+            N = 0.0
+            M = 0.0
+            cumNumbers = []
+            cumSizes = []
+            for size,number in sorted(pairs,key=lambda x: x[0],reverse=True):
+                N += float(number)
+                M += float(size)*float(number)
+                cumNumbers.append(N)
+                cumSizes.append(float(size))
+            if M:
+                ## Zipf/Simon model fit:
+                m = -(1. - N/M)
+                b = -m*ma.log(N,10)
+                f = [(ma.log(cumSizes[i],10)-b)/m for i in range(len(cumSizes))]
+                r = [ma.log(cumNumbers[i],10) - f[i] for i in range(len(cumNumbers))]
+                fmean = sum(f)/float(len(f))
+                mss = sum([(f[i] - fmean)**2.0 for i in range(len(f))])
+                rss = sum([r[i]**2.0 for i in range(len(r))])
+                self.rsq = mss/(mss + rss)
+            else:
+                print("There's no data on which to test a fit!")
+                sys.exit()
+            
     def partitionText(self,text = "", textfile = "NA"):
         ## set things up
         reg = re.compile("((\#|\@)?[a-zA-Z]+((\'|\-)[a-zA-Z]+)*\'?[ ]?)+")
-        counts = {}
+        self.counts = {}
         if textfile != "NA":
             try:
                 with open(textfile, "r") as f:
@@ -174,15 +209,14 @@ class partitioner:
                 partition = self.stochastic(clause)
                 ## here, partition is a dictionary
                 for phrase in partition:
-                    counts.setdefault(phrase,0.)
-                    counts[phrase] += partition[phrase]
+                    self.counts.setdefault(phrase,0.)
+                    self.counts[phrase] += partition[phrase]
             elif self.method == "oneoff":
                 partition = self.oneoff(clause)
                 ## here, partition is a list
                 for phrase in partition:
-                    counts.setdefault(phrase,0.)
-                    counts[phrase] += 1.
-        return counts
+                    self.counts.setdefault(phrase,0.)
+                    self.counts[phrase] += 1.
 
     def stochastic(self, clause):
         words = re.split(" ", clause)

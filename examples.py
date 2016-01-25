@@ -39,3 +39,10 @@ def uniformOneOffPartition(informed = False, clause = "How are you doing today?"
 def uniformStochasticPartition(informed = False, clause = "How are you doing today?", qunif = 0.25):
     pa = partitioner(informed = informed, qunif = qunif)
     print pa.stochastic(clause)
+    
+## Vignette 6: Use the default partitioning method to partition the main partitioner.py file and compute rsq
+def testPartitionTextAndFit():
+    pa = partitioner()
+    pa.partitionText(textfile = "partitioner.py")
+    pa.testFit()
+    print pa.rsq
