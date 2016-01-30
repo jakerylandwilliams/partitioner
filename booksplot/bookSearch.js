@@ -20,7 +20,7 @@ d3.json("booksdata.json", function(booksdata) {
     };
 
     // initialize both plots with Moby Dick
-    ID = "englishGutenbergBooks/2701.txt";
+    ID = "2701";
 
     // Generate the lines for the rank-freq plot
     if (data[ID]["qInf-rsq"] >= data[ID]["1.0-rsq"]){
