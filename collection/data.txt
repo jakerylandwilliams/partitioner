@@ -1,0 +1,14 @@
+jake's,williamsntest,thisnThis is // an example // of // some // partitioned text // in // a // little strip!//
+This is // an example // of // some // partitioned text // in // a // little strip!//
+
+	  Hey... say something!
+	
+This is some text.
+This is an example
+This is other m ple
+
+
+this is one stuff
+This is other m ple\n\n\nthis is one stuff
+This is other m ple\n\n\nthis is one stuff
+This is other m ple\n\n\nthis is one stuff\n\nthis sentence \t has a \t
