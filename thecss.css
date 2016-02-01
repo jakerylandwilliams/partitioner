@@ -45,7 +45,7 @@ span {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background: url('hotdogdoctor.tiff') no-repeat center center scroll;
+    background: url('./hotdogdoctor.tiff') no-repeat center center scroll;
     padding: 100px 0;
     height:462px;
 }
