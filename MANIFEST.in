@@ -1,0 +1,6 @@
+# Include the license file
+include LICENSE
+
+# Include the data files
+recursive-include qdumps *
+recursive-include dictionaries *
