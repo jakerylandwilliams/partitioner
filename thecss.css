@@ -45,7 +45,7 @@ span {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-image: url("http://jakerylandwilliams.github.io/partitioner/hotdogdoctor.jpg") no-repeat center center scroll;
+    background-image: url("./hotdogdoctor.jpg") no-repeat center center scroll;
     padding: 100px 0;
     height:460px;
 }
