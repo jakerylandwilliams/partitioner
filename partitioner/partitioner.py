@@ -174,8 +174,10 @@ class partitioner:
             ## Zipf/Simon model fit:
             m = -(1. - N/M)
             b = -m*ma.log(N,10)
-            f = [(ma.log(cumSizes[i],10)-b)/m for i in range(len(cumSizes))]
-            r = [ma.log(cumNumbers[i],10) - f[i] for i in range(len(cumNumbers))]
+
+            f = [10**(m*ma.log(cumNumbers[i],10) + b) for i in range(len(cumSizes))]
+            r = [cumSizes[i] - f[i] for i in range(len(cumNumbers))]
+            
             fmean = sum(f)/float(len(f))
             mss = sum([(f[i] - fmean)**2.0 for i in range(len(f))])
             rss = sum([r[i]**2.0 for i in range(len(r))])
