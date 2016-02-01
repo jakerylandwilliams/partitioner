@@ -1,0 +1,77 @@
+.navbar {
+    padding: 2em;
+}
+
+#scatter {
+    padding-left:10em;
+}
+
+#lines {
+    padding-left:10em;
+}
+
+#mySvgs {
+    clear:both;
+}
+
+span {
+    font-weight:bold;
+}
+
+.book-search-box {
+    width:10px;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.hexagon {
+    fill: none;
+    stroke: #000;
+    stroke-width: .0px;
+}
+
+.myimg {
+    opacity:0.5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: url('hotdogdoctor.tiff') no-repeat center center scroll;
+    padding: 100px 0;
+    height:462px;
+}
+
+.heading1 {
+    margin: 0.5em 0;
+    font-size: 4em;
+    text-align:left;
+}
+
+.heading2 {
+    margin: 0.5em 0;
+}
+
+.thetext {
+    margin: 0.5em 0;
+}
+
+li {
+    font-size:1.5em;
+}
+
+#part {
+    font-size:3em;
+}
+
+#footer {
+    height:100px;
+}
