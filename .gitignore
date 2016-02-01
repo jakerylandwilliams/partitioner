@@ -1,0 +1,6 @@
+pyenv
+*~
+*.egg-info
+dist
+build
+.pypirc
