@@ -1,9 +1,9 @@
 import re, sys, json, os
 import math as ma
 import random as ra
-import itertools as it
+# import itertools as it
 
-class partitioner:
+class partitioner(object):
     
     def __init__(self, 
                  informed = True, 
