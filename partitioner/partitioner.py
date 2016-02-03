@@ -44,7 +44,7 @@ class partitioner:
             return 1.0
 
     def dumpqs(self, qsname):
-        with open(self.home+"/../qdumps/"+qsname+".json","w") as f:
+        with open(self.home+"/qdumps/"+qsname+".json","w") as f:
             f.writelines(json.dumps(self.qs))
 
     def loadqs(self, dictionary = "NA", qsname = "enwiktionary"):
@@ -53,7 +53,7 @@ class partitioner:
         if self.dictionary == "NA":
             ## add switch here to check if preprocessed set exists
             try:
-                with open(self.home+"/../qdumps/"+self.qsname+".json","r") as f:
+                with open(self.home+"/qdumps/"+self.qsname+".json","r") as f:
                     self.qs = json.loads(f.read().strip())
             except IOError:
                 print("Preprocessed probabilities for "+self.qsname+" have not yet been created!")
