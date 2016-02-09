@@ -1,0 +1,1397 @@
+VATICANA***
+
+Produced by Distributed Proofreaders Europe, http://dp.rastko.net
+Project by Carlo Traverso and Moises Gaudencio
+This file was produced from images generously made available by the
+Bibliothèque nationale de France (BnF/Gallica) at http://gallica.bnf.fr. 
+
+THEOPHILO BRAGA.
+
+O Cancioneiro portuguez da Vaticana
+e suas relações com outros Cancioneiros dos seculos XIII e XIV.
+
+(Zeitschrift für Romanische Philologie, 1877)
+
+O apparecimento do Cancioneiro portuguez da Bibliotheca do Vaticano,
+que encerra quasi toda a poesia lyrica do fim da edade media em
+Portugal, veiu mais uma vez provar a superioridade da iniciativa
+individual sobre a estabilidade inerte das instituições collectivas
+que apenas apresentam o vigor do prestigio official; desde 1847 que a
+Academia real das Sciencias de Lisboa deixava jazer no pó do archivo
+de Roma este importante documento nacional, e foram sempre ficticios
+os esforços para obter uma copia d'elle, que de ha muito devera ter
+sido reproduzida no corpo dos _Scriptores_, que forma uma das partes
+dos _Portugaliae Monumenta historica_. No emtanto, no estrangeiro o
+interesse scientifico muitas vezes se havia occupado do passado
+historico de Portugal, e foi a esta corrente que obedeceu o illustre
+philologo romanista Ernesto Monaci coadjuvado pelo activo e
+intelligente editor Max Niemeyer, restituindo a este paiz o texto
+diplomatico do mais precioso dos seus documentos litterarios. Ao
+terminar do modo mais consciensioso a sua empreza, escreve Monaci:
+"voglia il cielo che tornato il libro in Portogallo, diventi presto
+oggetto di studj novelli. È solo nella fonte delle tradizioni patrie
+che lo spirito di una nazione si ringagliardisce." (Canz. port., p.
+XVIII.) Infelizmente na litteratura portugueza ainda se não
+comprehendeu esta verdade salutar, e por isso o talento desbarata-se
+em architectar phantasmagorias de cerebros doentes ou em fazer
+traducções de romances dissolutos. Acceitando a responsabilidade das
+palavras do editor do Cancioneiro da Vaticana dirigidas a esta nação,
+cabia primeiro do que a todos á Academia real das Sciencias de Lisboa
+responder pela seguinte forma:
+
+1°. Publicar o texto critico e litterario restituido sobre a lição
+diplomatica em grande parte illegivel fóra de Portugal.
+
+2°. Acompanhar esse texto com todos os dados bibliographicos de que se
+possa alcançar noticia, para sobre elles basear a historia externa da
+formação do Cancioneiro.
+
+3°. Acompanhal-o de um bom glossario das palavras empregadas na dicção
+provençalesca da poesia palaciana.
+
+4°. Por ultimo organisar um vasto quadro da historia litteraria de
+Portugal no periodo dos nossos trovadores, deduzido dos abundantes
+factos historicos que fornece o Cancioneiro da Vaticana.
+
+É para isto que existem as Academias nos paizes civilisados, que os
+governos as subsidiam, e que os seus membros têm o fôro de sabios. Em
+quanto a Academia real das Sciencias de Lisboa não cumpre este seu
+dever, cumpre-nos dar uma noticia d'este Cancioneiro, longos seculos
+perdido pelas bibliothecas estrangeiras.
+
+N'este codice se encontram as nossas origens litterarias, e as
+relações intimas que filiam a litteratura portugueza no grupo das
+litteraturas romanicas da edade media da Europa; aqui se acham
+representadas as duas correntes da inspiração popular e palaciana ou
+erudita, bem como os costumes intimos de uma sociedade que nos é
+desconhecida, mas d'onde proviemos; os successos historicos aí têm a
+sua nota accentuada; os nomes que figuram nas lendas genealogicas e
+nos feitos de armas no periodo da constituição da nossa nacionalidade
+aí se encontram assignando os mais saborosos cantares consagrados ás
+damas da côrte, que serviam. Finalmente, ali está o documento mais
+vasto em que a lingua portugueza se manifesta no seu esforço para de
+inconsistente dialecto romanico se tornar uma lingua escripta com uma
+grammatica fixa. Um livro assim, onde se acha representado o melhor da
+nossa antiga poesia durante os seculos XIII e XIV, é a joia de uma
+bibliotheca. Como nos mostraremos gratos ao estrangeiro que assim vem
+augmentar os nossos thezouros historicos e restituir-nos o fio perdido
+da nossa tradição nacional? Estudando-o.
+
+A primeira questão que o Cancioneiro portuguez do Vaticano sugere é
+determinar as suas relações com os antigos cancioneiros provençaes
+portuguezes em grande parte perdidos; esta circumstancia complica o
+problema critico, e por isso importa bem determinar aproximadamente o
+numero d'essos cancioneiros para se fazer o processo de filiação. Tal
+é o intuito d'este nosso primeiro estudo, bastante restricto, por que
+determinar o valor historico do Cancioneiro pelas correntes
+litterarias n'elle representadas, pela allusão aos grandes successos,
+pelo uso de dadas formas poeticas, pelas personalidades dos principaes
+trovadores e pelo estado da lingua portugueza, é uma exploração de tal
+forma vasta, que qualquer d'estas questões excede as proporções de uma
+noticia. Começamos pela critica externa do Cancioneiro, enumerando
+todos os cancioneiros portuguezes dos seculos XIII e XIV que
+contribuiram para a sua formação, procurando ao mesmo tempo o nexo que
+existiria entre elles, e pelas divergencias de texto quaes as
+collecções que se perderam sem chegarem a ser conhecidas.
+
+1. O Livro das Cantigas do Conde de Barcellos.
+
+No testamento do Conde D. Pedro, feito em Lalim em 30 de Março de
+1350, se lê esta clausula: "Item, mando o meu _Livro das Cantigas_ a
+el rei de Castella". Interpretando esta clausula, Varnhagem quiz por
+ella attribuir o Cancioneiro da Ajuda ao Conde de Barcellos,
+imprimindo-o em 1849 n'esse presupposto, com o titulo de _Trovas e
+Cantares... ou antes mui provavelmente o Livro das Cantigas do Conde
+de Barcellos_. Esta hypothese cedo caiu diante da evidencia dos
+factos; mas além d'este primeiro erro, existe n'esta affirmacão um
+outro, que é o julgar o _Livro das Cantigas_ formado de canções
+unicamente compostas pelo Conde de Barcellos. Era antigamente vulgar
+terem os principes cancioneiro seu, como objecto sumptuario, isto é,
+uma collecção contendo as melhores poesias de seu tempo; sabendo-se a
+tendencia compiladora e erudita do Conde Dom Pedro, e a sua amisade
+com a aristocracia portugueza e gallega por causa do seu _Nobiliario_,
+é mais no espirito da historia litteraria a hypothese, que o _Livro
+das Cantigas_ era seu pelo facto material da propriedade ou da
+colleccionação, e que este titulo designa um cancioneiro contendo
+composições de diversos trovadores. Vamos fundamentar esta hypothese:
+Primeiramente, o Conde D. Pedro, pelas canções que d'elle restam na
+collecção do Vaticano, era um mediocre trovador, e d'elle diz Affonso
+XI, a quem elle deixara em testamento _o seu Livro das Cantigas:_
+
+    Pois se de quant'el tem errado
+    _serve Dom Pedro_, nem lhi dá em grado.
+
+Alludia á inferioridade das canções de Bernal de Bonaval, que serviam
+ao gosto do Conde Dom Pedro. Em segundo logar, pelo Nobiliario se vê
+quanto o Conde era versado nas tradições bretans que adoptava como
+factos historicos; e no indice do Cancioneiro de Angelo Colocci se
+acham enumeradas como começo d'esse codice: "1. Elis o baço, duque de
+Sansonha, quando passou na Gram Bretanha, qual ora chamam Ingraterra,
+al tempo del Rey Arthur ad combater com Tristano por que lhi avia
+occiso o padre em uma batalha. E andando um dia em sa busca foi por
+Giososa Guarda ú era a reyna Isouda de Corualha, e enamorou-se ali
+elle, e fez por ella aquesta lais, o qual lais poemos aqui, porque era
+o melhor que fora feito.--2. Quatro donzellas, a Morouet de Irlanda,
+al tempo del rei Arthur.--3. Dom Tristan enamorado.--4. Dom
+Tristan.--5. D. Tristam para Genebra".
+
+Por este conteúdo do começo do Cancioneiro que pertenceu a Colocci, e
+por que no codice da Vaticana mais de uma vez se citam as formas
+poeticas bretãs dos _lais_, podemos concluir que esses cinco Lais
+pertenceriam ao _Livro das Cantigas_, o qual foi encorporado em uma
+grande collecção formando talvez a parte que vae até as canções de
+el-rei D. Diniz que eram tambem um cancioneiro avulso. Por este mesmo
+codice de Angelo Colocci, de que resta o indice, achamos que antes da
+parte que constitue a colecção de el-rei D. Diniz, estavam colligidas
+varias canções de Dom Affonso Sanches, bastardo do rei, as canções de
+Dom Affonso rei de Leão, as de D. Affonso XI de Castella, e depois
+d'estar as do proprio Conde de Barcellos, que são ao todo nove, e
+tambem as de seu irmão el rei D. Affonso IV. Não era qualquer
+compilador ocioso que poderia satisfazer a sua curiosidade obtendo
+d'estes principes e monarchas as canções mais ou menos pessoaes; o
+Conde de Barcellos estava em uma posição especial, sabia metrificar,
+era estimado na côrte de D. Diniz e na de Affonso XI, e tendo passado
+algum tempo em Hesphanha de lá podia trazer canções de varios
+trovadores que nunca estiveram em Portugal. Por tanto o seu _Livro das
+Cantigas_ fôra formado n'estas condições particulares, e o apreço que
+se lhe ligava é que o fez com que o deixasse em testamento ao elegante
+trovador Affonso XI de Castella. A posse de um livro de cantigas era
+quasi um titulo nobiliarchico; na canção 76 da Vaticana, feita á
+maneira de sirvente por Affonso XI contra o Dayão de Calez, diz que
+elle tinha um _Livro de Sons_, por meio do qual seduzia todas as
+mulheres. Foi tambem pelo seu gosto pela poesia provençalesca que o
+Conde de Barcellos manteve a sympathia de D. Affonso IV, filho
+legitimo de D. Diniz, e por isso em uma canção de louvor é chamado o
+_rimante d'el-Rei_. Por tudo isto é mais crível que o _Livro das
+Cantigas_ do Conde fosse o primeiro nucleo com que se formou por
+juxta-posição o grande cancioneiro portuguez, do qual um dos
+apographos é o codice da Vaticana; dizemos por juxta-posição, por que
+se lhe segue o de el-rei Dom Diniz, e porque muitas canções de codice
+de Roma se acham aí mesmo repetidas, indicação inevitavel de terem
+sido colligidas de fontes diversas. Quando o Conde Dom Pedro falleceu
+já era morto Affonso XI, e isto explica como poderia extraviar-se em
+Castella esse _Livro das Cantigas_, e como Pero Gonçalves de Mendoza
+viria a obter a copia que se guardava em um grande volume em casa de
+D. Mecia de Cisneros, e pela primeira vez citada por seu neto, o
+Marquez de Santillana.
+
+2. Livro das Trovas de El-rei Dom Diniz
+
+O corpo das canções de el-rei Dom Diniz occupava uma grande parte do
+codice de Dona Mecia de Cisneros; occupava tambem uma parte importante
+no apographo de Colocci, bem como no codice da Vaticana. O modo como
+esta grande quantidade de canções de el-rei Dom Diniz entrou em uma
+vasta compilação explica-se naturalmente, por isso que pelo catalogo
+dos livros de uso de el rei Dom Duarte acha-se citado o _Livro das
+Trovas de el-rei Dom Diniz_, do qual se pode inferir terem existido
+varias copias, por que o numero das canções varia entre as enumeradas
+no indice de Colocci e as contidas no codice da Vaticana, contando
+este ultimo cincoenta e uma canções a mais. Alem d'isso, na parte do
+codice que encerra as canções de D. Diniz, a canção 116 acha-se
+repetida outra vez sob o numero 174 com variantes e differente
+disposição de estrophes, o que denota que essa parte foi compilada de
+copias secundarias, mas classificadas, como vemos pelo titulo das
+_Cantigas de Amigo_ dado a um certo genero de canções, especialmente
+de imitação popular. É provavel que os autographos que serviam para os
+traslados nitidos dos amanuenses fossem por vezes aproveitados por
+outros compiladores; de el-rei Dom Diniz andava tambem um codice
+poetico em poder dos Freires de Christo de Christo de Thomar. Os
+muitos jograes da Galiza, de Castella e de Leão, que frequentavam a
+côrte de Dom Diniz, tambem colligiriam esses corpos de canções de
+_Serranilha_ e de _Mal-dizer_ que os privados dos monarchas trovaram,
+e que elles decoravam para cantarem de officio. Os jograes formaram
+collecções dos melhores cantares para recitarem ou acompanharem á
+citola, pelo que recebiam dinheiro; o costume de ter jograes de
+_Segrel_ ao serviço da casa real levava tambem a formar estes pequenos
+cancioneiros escolhidos.
+
+3. O Cancioneiro da Ajuda (ou do Collegio dos Nobres).
+
+O facto de se encontrarem _cincoenta e seis_ canções communs ao Codice
+da Ajuda e ao da Vaticana, torna indispensavel o resumir aqui o que se
+sabe da historia externa do Cancioneiro da Ajuda. As suas folhas são
+de pergaminho, a duas columnas, com pauta para a musica das canções
+que se deveria escrever em seguida, e com varias vinhetas separando os
+diversos grupos de canções de cada trovador e com letras historiadas.
+O cancioneiro está truncado, pois que começa na folha 41, e não existe
+o final, não só por incuria dos possuidores, que o baralharam
+encadernando-o tumultuariamente com o Nobiliario, grudando algumas
+folhas ás capas, mas tambem por que o estado da copia, sem assignatura
+ou designação dos trovadores, letras historiadas incompletas, e falta
+de notação musical, nos revelam que o codice não foi dado por acabado.
+Esta collecção começou-se ainda no reinado de D. Diniz, por que
+juntando-se as folhas lê-se escripto no córte d'ellas: _Rei Dom
+Diniz_, e d'isto tambem se pode deduzir, que se não perderam muitas
+folhas do principio e do fim. D'este codice foram encontradas mais 24
+folhas avulsas na Bibliotheca de Evora, e é tradição corrente que na
+de Coimbra existiam algumas outras tambem.
+
+A inspecção do Codice da Ajuda, confrontado com outros Codices
+europeus, mostra-nos que elle pertencia indubitavelmente a diversos
+trovadores; Varnhagem notou que existiam dezaseis vinhetas
+imperfeitamente coloridas, que estão desenhadas junto ás canções 2,
+36, 37, 149, 157, 170, 173, 184, 190, 231, 233, 249, 253, 255, 259 e
+fragmento _h_. (Notas ás _Trovas e Cantares_, p. 348.)
+
+Alem d'este vestigio paleographico, o confronto com o Codice da
+Vaticana levou a achar os seguintes trovadores, communs aos dois
+Cancioneiros: Pero Barroso, Affonso Lopes Baião, Mem Rodrigues
+Tenoyro, João de Guilhade Estevam Froyam, João Vasques, Fernão Velho,
+Ayres Vaz, D. João de Aboim, Pero Gomes Charrinho, Ruy Fernandes,
+Fernam Padrom, Pero da Ponte, Vasco Rodrigo de Calvelo, Pero Solaz,
+Pero d'Armêa, e João de Gaia. Todos estes nomes são de fidalgos
+grandes privados de el-rei D. Diniz, e alguns já figuram em doações de
+D. Affonso III, como D. João de Aboim e Affonso Lopes Baião; Mem
+Rodrigues Tenoyro vivia na côrte de D. Affonso IV, e foi entregue a
+Pedro cruel em troca dos assassinos de Inez de Castro.[1] A parte não
+assignada e que não se encontra no Cancioneiro da Vaticana será por
+ventura o corpo das canções escriptas durante o tempo em que a côrte
+de D. Affonso III esteve fixa em Santarem. Alem d'isso a parte commum
+tem a particularidade de conservar a mesma ordem nas canções, e ao
+mesmo tempo as variantes mais fundamentaes n'essas lições. D'aqui se
+conclue, que já existia um Cancioneiro formado, d'onde este da Ajuda
+estava sendo trasladado, mas que d'esse cancioneiro existiam
+differentes copias formadas, não directamente sobre elle, mas por meio
+dos cancioneiros particulares que o constituiram. A parte não commum
+ao codice de Roma, prova nos tambem que alguns d'esses cancioneiros
+parciaes se perderam, ou eram já tão raros que não chegaram a ser
+encorporados na collecção. Admittida a hypothese de que o Cancioneiro
+da Ajuda, pelo facto de ter pertencido a el-rei D. Diniz e de andar
+encadernado junto do Nobiliario do Conde D. Pedro, fosse o proprio
+_Livro das Cantigas_, como primeiro quiz Varnhagem, o facto de
+apparecerem aí outros trovadores prova-nos a nossa hypothese, que o
+Conde D. Pedro compilara sob esse titulo as canções dos trovadores
+seus contemporaneos. O numero de vinhetas imperfeitamente coloridas do
+cancioneiro da Ajuda são dezaseis; isto leva a inferir que esse codice
+era formado de dezeseis corpos de canções que pertenciam a dezassete
+trovadores. De facto a coincidencia aqui é pasmosa: o numero dos
+trovadores communs ao Cancioneiro da Ajuda e da Vaticana é de
+dezesete! Note-se que este numero é o que se perfaz com os nomes de
+_Fernam Padrom, João de Gaya, e Pero d'Armêa_, que achámos alem
+d'aquelles que primeiro descobriu Varnhagem. D'este numero se tira a
+conclusão que o Cancioneiro da Ajuda pertence exclusivamente a esses
+dezessete trovadores, e que as cincoenta e seis canções communs ao
+Codice da Ajuda eram as que andavam por cancioneiros parciaes, como as
+mais conhecidas, e pelas variantes que appresentam, as mais repetidas.
+Alem d'isso, pode suppor-se que o Cancioneiro da Ajuda não foi
+acabado, por que o estylo _limosino_ em que está escripto, passou de
+moda, preferindo-se os _Cantares d'amigo_, as _serranilhas_, as
+_pastorellas_, os _lais_ e as _sirventes_, mudança de gosto
+proveniente da grande affluencia de jograes gallegos, leonezes e
+castelhanos á côrte de Dom Diniz; e sob o gosto da côrte de Dom
+Affonso IV prevaleceram tambem as canções e musicas bretans, cuja
+corrente parece ainda reflectida no Cancioneiro da Ajuda, em um
+remotissimo vestigio, no fragmento de canção em que se lê a palavra
+_guarvaya_, com que o trovador allude aos seus infelices amores. Nas
+_Leges Wallice_, XXIII, I, encontra-se o dom das nupcias, _kyvarus_,
+que se pagava ao cantor da côrte: "Penkered (musicus primarius) debet
+habere mercedes de filiabus poetarum sibi subditorum; habebit quoque
+munera nuptiarum, id est _kyvarus neythans_, á feminibus nuper datis,
+scilicet XXIIIIor denarios."[2] A connexão historica e a interpretação
+litteral mostram que a _guarvaya_ do trovador portuguez é o mesmo
+facto ou costume bretão _kyvarus_; a verificação pelos processos da
+alteração phonetica pertence para outro logar. Em todo o caso este
+vestigio é um dos nexos mais intimos que se pode achar com o codice
+perdido de Colocci, em que estavam já colligidos alguns _lais_
+bretãos.
+
+A musica do Cancioneiro da Ajuda tambem foi abandonada, por que foram
+substituidos nos costumes outros instrumentos e outras tonadilhas; no
+poema francez de Bertrand Du Guesclin, fala-se de cantores bretãos na
+côrte de D. Pedro I de Portugal. Foi já n'esta nova corrente poetica e
+com o fervor que ella despertara que se começou a formar o vasto
+cancioneiro, de cuja existencia se sabe por quatro apographos. Crêmos
+que o compilador que trasladou ou organisou o texto authentico d'onde
+saíu o apographo do Vaticano, não soube da existencia do Cancioneiro
+da Ajuda, apezar das cincoenta e seis canções communs a ambos. Este
+facto será mais amplamente explicado.
+
+4. O Cancioneiro de Dona Mecia de Cisneros.
+
+Na sua _Carta ao Condestavel de Portugal_, escripta antes de 1449, o
+Marquez de Santillana, no § XV, diz que se recordava de ter visto,
+quando era bastante menino, em poder de sua avó Dona Mecia de
+Cisneros, entre outros livros, um grande volume de cantigas.... O
+Marquez de Santillana nasceu em 1398, e sua avó Dona Mecia, na
+companhia da qual passou a sua infancia, morreu em Dezembro de 1418,
+em Palencia. Em primeiro logar "o _grande volume de Cantigas_, e
+_outros livros_" citados na carta, existiam em casa de D. Mecia de
+Cisneros por que provinham de Garcilasso de la Vega, e de Pero
+Gonzales de Mendoza, como claramente o affirma Amador de los Rios:
+"passo su infancia en casa Doña Mencia de Cisneros, su abuela, donde
+hubo de aficionar-se à la lectura de los poetas en los codices que
+poseyeron Garcilasso de de la Vega y Pero Gonzales de Mendoza..."[3]
+Garcilasso de la Vega, bisavó do Marquez, morrera em 1351, e esta
+data, e as suas relações de parentesco com a aristocracia portugueza
+explicam como a elle ou a Pedro Gonzales de Mendoza chegou o volume
+das cantigas. Portanto esse grande cancioneiro não existia em Hespanha
+antes poucos annos de 1351 e foi pouco antes de 1418 que o joven
+Marquez de Santillana o consultou. Pedro Gonzales de Mendoza era
+tambem poeta do côrte de Don Pedro e de Don Enrique (Amador de los
+Rios, _op.cit._, p. 623), e isto mostra o interesse que o levaria pelo
+seu lado a conservar o grande cancioneiro portuguez.
+
+A descripção que faz o Marquez de Santillana d'esse codice, coincide
+com o que existe na Bibliotheca do Vaticano em copia do seculo XVI:
+_"un grande volume de Cantigas serranas e dizeres portuguezes e
+gallegos"_. São ao todo mil duzentas e cinco cantigas compostas no
+genero descripto por Santillana, e os poetas são em grande numero
+galegos. Em seguida accrescenta: _"dos quaes a maior parte eram do rei
+D. Diniz de Portugal"_. Effectivamente o trovador que mais canções
+appresenta no codice da Vatícana é el-rei D. Diniz, cujas composições
+estão compiladas entre o numero 80 e 208, sendo ao todo cento e vinte
+nove. Accrescenta mais o Marquez de Santillana: _"cujas obras aquelles
+que as liam, louvavam de invenções subtis, e de graciosas e doces
+palavras"_. Esta affirmação, sobendo-se que o Marquez escreve sobre
+uma recordação da sua infancia, não podia resultar se não dos gabos
+ouvidos a Pero Gonzales de Mendoza, poeta do Cancioneiro de Baena,
+gabos que fizeram com que o livro se conservasse em casa de D. Mecia
+de Cisneros, e d'onde se tirara por ventura essa outra copia que hóje
+existe em poder de um grande de Hespanha, segundo uma affirmação de
+Varnhagem. N'esta mesma carta ao Condestavel de Portugal, allude o
+Marquez aos talentos poeticos de seu avô e cita varias das suas
+composições: _"E Pero Gonzales de Mendoza, meu avô, fez boas
+canções"_. Crêmos que por esta via é que o cancioneiro foi copiado
+para Castella, copiado dizemos nós porque se conforma com um grande
+cancioneiro já organisado, de que o de Roma é um apographo terciario.
+O Marquez de Santillana cita de memoria os principaes trovadores que
+vira transcriptos n'essa vasta collecção: "Havia outras (sc. canções)
+de _Joham Soares de Paiva_, o qual se diz que morrera em Galiza por
+amores de uma infanta de Portugal; e de outro _Ferrant Gonçalves de
+Senabria"_. Pela referencia a estes dois trovadores se vê qual o
+estado do cancioneiro manuscripto ou volume de Cantigas de D. Mecia de
+Cisneros. No apographo da Vaticana se acha uma canção de _João Soares
+de Paiva_, quasi no fim da collecção, (n°. 937) ao passo que no
+cancioneiro que pertenceu a Colocci e de que apenas resta o indice dos
+trovadores (cod. vat. n°. 3217) se acha logo sob o numero 23 o nome de
+_João Soares de Paiva_ com sete canções successivas. Em seguida a este
+trovador cita _Ferrant Gonçalves de Senabria_, porem no Codice de
+Colocci acha-se sob o numero 384 citado _Gonçalves de Seaura_ com dez
+canções a seguir. Isto concorda com a phrase do Marquez, referindo-se
+a essas canções: "Havia outras....." O motivo d'esta referencia
+especial seria por ter este trovador o apellido de _Gonçalves_, de seu
+avô, e por isso ainda pertencente á sua linhagem. No Codice da
+Vaticana agora publicado, acha-se um fragmento de canções de _Fernão
+Gonçalvis_, e só sob o numero 338 outra canção de _Fernão Gonçalves de
+Seavra_, a qual corresponde segundo Monaci ao numero 737 do Codice
+perdido de Colocci.
+
+Portanto, o Cancioneiro de D. Mecia de Cisneros era completo pelo que
+se deduz da citação d'estes dois trovadores, cujas obras se achavam
+antes da folha 42 do actual Codice Vaticano, na qual começa. No
+Cancioneiro de Colocci, em vez de _cento e vinte nove_ canções, el-rei
+Dom Diniz é representado com _setenta e outo;_ mas ainda assim era uma
+grande collecção para o Marquez poder dizer d'ella em relação ao
+volume das Cantigas _uma maior parte_. Em seguida a estas preciosas
+referencias cita tambem na sua carta _Vasco Peres de Camões_, poeta do
+Cancioneiro de Baena e contemporaneo de Pedro Gonçalves de Mendoza por
+cuja via seria conhecido em casa de Dona Mecia de Cisneros, e pelos
+eruditos que tinham o cuidado da educação do Marquez. Por ultimo,
+infere-se que o Codice de D. Mecia era uma copia castelhana, por que
+transcreve o nome de _Fernão_ em _Ferrant_, e o de _Seavra_ em
+_Senabria_, o que se não pode attribuir a vicio de ortographia do
+Marquez de Santillana. Estes topicos bastam para considerar a copia de
+D. Mecia mais proxima do texto autographo do que a da Vaticana.
+
+5. Cancioneiro de Angelo Colocci. (_Catalogo di Autori portoghesi
+compilato da Angelo Colocci sopra un antico Canzoniere oggi ignoto._
+Ms. 3217 da Bibl. Vat.)
+
+O illustre editor Ernesto Monaci ao estudar o manuscripto do
+Cancioneiro da Bibliotheca do Vaticano, n°. 4803, pelas referencias do
+texto e paginação de um outro codice ali intercalladas, reconheceu que
+deveriam ter existido duas fontes para este apographo. Nas suas
+investigações na opulenta Bibliotheca do Vaticano teve a felicidade de
+descobrir o Catalogo dos Trovadores portuguezes no manuscripto 3217, o
+qual combina na maior parte com o dos Trovadores do Cancioneiro n°.
+4803, sendo as emendas d'este ultimo codice da mesma letra do indice
+escripto pelo philologo Angelo Colocci, erudito italiano do seculo
+XVI. É certo que o Cancioneiro da Vaticana pertenceu primeiramente a
+Colocci antes de vir a ser propriedade da Bibliotheca vaticana;
+Colocci era um d'esses distinctos eruditos italianos do fim do seculo
+XV, que colligiram manuscriptos de todos os paizes e cuja opulencia se
+distinguia pela formação de ricas livrarias, taes como Leão X, Bembo,
+Orsini, e outros tantos. Colocci morreu em 1549, tendo a sua livraria
+soffrido bastante no saque de Roma pelo Condestavel de Bourbon em
+1527. Por tanto, entre estas duas datas é que se teria perdido esse
+grande cancioneiro, do qual apenas resta o _Catalogo dos Autores
+portuguezes_, e que a Bibliotheca do Vaticano adquirira o cancioneiro
+n°. 4803, apographo de um outro perdido, mas emendado pela mão de
+Colocci sobre o exemplar hoje representado unicamente pelo indice.
+
+Antes de examinar qual a riqueza da Livraria de Colocci em
+manuscriptos portuguezes, surge a questão mais difficil de resolver:
+Como vieram estes varios cancioneiros portuguezes para as Livrarias
+italianas?
+
+Sabe-se que os pontifices mais instruidos mandavam procurar em todos
+os paizes os mais preciosos manuscriptos; de Leão X escreve Ginguené:
+"Não poupava despezas nem rodeios junto das potencias estrangeiras
+para fazer procurar nos paizes mais remotos e até nos estados do norte
+_livros antigos ainda ineditos_."[4] O modo como estes rodeios eram
+efficazes, explica-se pela prohibição de certos livros e pela
+instituição da censura, que já no século XV se exercia em Hespanha e
+em Portugal, como vêmos pelo _Leal Conselheiro_ de El-rei D. Duarte.
+Os livros eram entregues á auctoridade ecclesiastica para serem
+examinados, e sob qualquer pretexto de escrupulo não eram mais
+restituidos. Basta vêr a quantidade de canções obscenas e irreligiosas
+que o Cancioneiro portuguez da Vaticana encerra para se conhecer como
+veiu a caír na mão da auctoridade ecclesiastica e como sob ordem
+superior esse _livro antigo ainda inedito_ foi remettido para Roma.
+Alem d'isto, a paixão pela Renascença da antiguidade, que começou no
+seculo XV, fez com que nos diversos paizes decaísse repentinamente o
+amor pelos seu monumentos nacionaes. D'esta falta de amor pelo proprio
+passado proveiu para Portugal a perda de muitos manuscriptos, como o
+da novella _Amadis de Gaula_, de muitos cancioneiros manuaes, como
+relata Faria e Sousa, pelo que dizia o Dr. João de Barros no principio
+do seculo XVI, que estas cousas se secavam nas nossas mãos. D'esta
+falta de estima pelos monumentos nacionaes, veiu o dispersarem-se
+pelas bibliothecas da Europa muitos thezouros da nossa litteratura,
+como se prova pela existencia da _Demanda do santo Greal_ na
+bibliotheca de Vienna, dos livros de Valentim Fernandes na bibliotheca
+de Munich, do _Leal Conselheiro_ de D. Duarte, _Chronica de Guivé_ de
+Azurara, e _Historia geral de Hespanha_ na bibliotheca de Paris, do
+_Roteiro_ de D. João de Castro no Museu britanico, e do _Cancioneiro
+do Conde de Marialva_, da _Satyra de infelice vida_ do Condestavel de
+Portugal em Madrid. A saida do grande Cancioneiro de Portugal pertence
+a esta forte corrente de dispersão. No fim do seculo XV alguns
+portuguezes eruditos se distinguiam na Europa pelas suas riquezas
+litterarias; em uma _Memória sobre as relações que existiam
+antigamente entre os flamengos de Flandres, especialmente os de Bruges
+e os Portuguezes_, cita-se: "João Vasques, natural de Portugal,
+mordomo de D. Isabel de Portugal, Duqueza de Borgonha:--Vasques
+possuía uma Bibliotheca, ou pelo menos diversos manuscriptos de
+valor."[5] Entre esses livros figuravam _Histoire de Troie la grant_,
+e alguns tinham as armas de Portugal na encadernação, como o velino
+_Horae beatae Mariae Virginis_. Tambem no seculo XV figuravam no
+estrangeiro os eruditos Diogo Affonso de Mangaancha, Vasco Fernandes
+de Lucena, Achilles Estaço, e outros muitos amadores bibliophilos.
+Cuidava-se em comprar livros impressos, por meio das Feitorias
+portuguezas, mas os manuscriptos sobre tudo os da litteratura medieval
+perdiam-se com a mais censuravel incuria. Sabe-se por uma carta de
+João Rodrigues de Sá dirigida a Damião de Goes, que el-rei D. Affonso
+V mandou vir de Italia Frei Justo, a quem fez bispo de Ceuta, com o
+fim de escrever em latim a historia dos antigos reis de Portugal, e
+que todos os documentos que lhe foram entregues se perderam na sua
+mão, por ter repentinamente fallecido da peste. É natural que estes
+subsidios historicos constassem tambem de varios cancioneiros, por que
+a poesia fôra um facto importante nas côrtes de D. Affonso III, D.
+Diniz e D. Affonso IV; alem d'isso o espolio d'este bispo italiano
+seria arrecadado pela auctoridade ecclesiastica e remettido para Roma.
+Por todos estes factos parece justificar-se a hypothese de existir na
+bibliotheca do Vaticano, antes do saque de Roma em 1527, um d'esses
+cancioneiros portuguezes, e que d'aí se dispersaram por essa causa: "A
+bibliotheca do Vaticano, tão liberalmente enriquecida por Leão X, foi
+saqueada; os livros mais preciosos foram preza de um furor ignorante e
+barbaro, como os da bibliotheca dos Medicis em Florença."[6] Pelo
+codice 4803, publicado por Monaci, se vê que este Cancioneiro foi
+copiado de um outro cancioneiro ja bastante truncado, como observou o
+critico editor pelas siglas antigas: _"Manca da fol. II infino a fol.
+43"_; e na pagina 10: _"Fol. 97 desunt multa"_; e pela ultima pagina,
+na qual se vê que ficou interrompida a copia.
+
+Alem d'esta deducção, tira-se uma outra, isto é, que o Codice 4803 foi
+comparado por Colocci com um outro mais rico e completo do qual só
+resta agora o _catalogo dos trovadores_. Os biographos de Colocci
+tambem consignam o facto de parte da sua opulenta bibliotheca ter sido
+destruida no saque de Roma, em 1527. Este philologo italiano possuia
+um decidido gosto pela poesia vulgar italiana, e conhecia a
+importancia do estudo das litteraturas novolatinas, como se vê pelo
+interesse com que procurava as Canções de Foulques de Marseille, e
+pela posse de varios codices com os titulos _Libro spagnolo di
+Romanze_, e _De varie Romanze volgare_, por ventura alguns d'elles
+provenientes da acquisição de manuscriptos das collecções de Bembo e
+de Orsini; seria algum d'estes livros o Cancioneiro da Vaticana, ou
+esse outro cancioneiro de que apenas resta o catalogo dos auctores.
+N'este catalogo precioso descoberto por Monaci, sob o numero 44--
+_Bonifaz de Jenoa_ segue-se esta referencia a manuscriptos de Bembo:
+_"vide bembo Ms. bonifazio Calvo de Genoa."_ E sob o numero 456--_il
+Rey don Affonso de Leon_, segue-se esta nota: _"bembo, dice di Ragona,
+figlio di Berenghieri."_ A variante do Codice de Bembo _di Ragona_
+seria _d'Aragone_ em vez de _Leon_, isto é, um dos codices parciaes d'
+onde se formou o grande cancioneiro parece fixar-se por esta
+circumstancia. Sob este mesmo numero segue-se: _"Alia lectio i
+Portugal, rey Don Sancho deponit."_ Quer esta observação de Colocci
+significar, que este rei D. Affonso em outro codice é citado como rey
+de Portugal, o que depoz D. Sancho, facto que caracterisa el-rei Dom
+Affonso III, que depoz seu irmão D. Sancho II. N'este caso este
+monarcha tambem fôra trovador, o Colocci possuia algum cancioneiro
+parcial. No mesmo Indice dos Trovadores, sob o numero 467 onde se
+continha as canções de El-rei Dom Affonso rei de Castella e de Leão,
+accrescenta-se: _"vide nel mio lemosino"_, no qual se attribuem as
+mesmas cantigas de preferencia ao rei de Leão, isto é, em harmonia com
+o titulo _di Ragona_, do numero 456. Em uma outra nota que o illustre
+Monaci achou no Codice n°. 4817, de letra d'este erudito, se acha a
+seguinte referencia a um codice portuguez: _"Messer Octaviano di
+messer barbarino, ha il_ libro di portoghesi, _quel da_ Ribera _l'ha
+lassato."_ Sabendo-se pela bibliographia, que o manuscripto da _Menina
+e Moça_ de Bernardim Ribeiro, foi na primeira metade do seculo XVI
+levado para a Italia, imprimindo-se em Ferrara em 1544, cinco annos
+antes da morte de Colocci, parece que a phrase _quel_ (libro) _da
+Ribera_ se refere a esta novella portugueza. Seria por este tempo que
+o cancioneiro portuguez se tornou conhecido em Roma, como dá noticia
+Duarte Nunes de Leão, nas palavras _"que em Roma se achou"_, mas sem
+dizer que já pertencia á Bibliotheca do Vaticano. A epoca em que este
+codice entrou n'esta rica bibliotheca pode fixar-se depois de anno de
+1600, por que os livros e manuscriptos de Colocci foram adquiridos
+pelo erudito Fulvio Orsini, que os deixou em testamento á Vaticana.[7]
+Esta é a opinião de Monaci; não concordamos porém com a sua
+interpretação do trecho de Duarte Nunes de Leão quando este escriptor
+portuguez diz: "segundo vimos por um cancioneiro seu, que em Roma se
+achou, em tempo de el-rei Dom João III..." deduzindo que Nunes de Leão
+chegara _a vêr_ esse cancioneiro; em primeiro logar, Nunes de Leão
+refere-se a um _Cancioneiro seu_, isto é unicamente de el-rei Dom
+Diniz, e não geral, como o de que resta noticia pelo Indice de Colocci
+e pelo apographo da Vaticana; isto já é uma prova da informação vaga
+do chronista, e alem d'isso a phrase _segundo vimos_, significa: como
+se prova, como se deduz. Nunes de Leão conhecia o codice das canções
+de D. Diniz que no principio de século XVII se guardava na Torre do
+Tombo, como elle diz: _"e per outro que está na Torre do Tombo..."_ ou
+talvez pelo que pertencia aos Freires de Christo, de Thomar. Vivendo
+no meado do seculo XVII, já o cancioneiro grande havia sido recebido
+na Bibliotheca do Vaticano e poderia ter noticia da existencia do
+Codice; porém o chronista refere-se principalmente a um _Cancioneiro
+de Dom Diniz_, e as referencias de Sá de Miranda, de Ferreira e de
+Camões são unicamente aos talentos poeticos de D. Diniz. Como chegou a
+Portugal noticia do apparecimento em Roma? Sá de Miranda demorou-se na
+sua viagem á Italia, entre 1521 e 1526, e conviveu com os principaes
+eruditos italianos, Lactancio Tolomei e João Ruscula, e dava-se tambem
+por parente da casa dos Colonas; é possível que, regressando a
+Portugal en 1526, quando havia já cinco annos que D. João III reinava,
+désse a noticia da descoberta de um cancioneiro em Roma, quando
+visitara as principaes livrarias; o facto dos poetas da eschola
+italiana alludirem ao talento poetico de D. Diniz, leva a induzir esta
+noticia como communicada pelo que trouxe a Portugal esse novo gosto
+litterario.
+
+Em 1527 foi o saque de Roma, e a livraria de Colocci tambem soffreu
+com essa devastação; por ventura algum dos cancioneiros acima citados
+se perdeu, ou foi talvez adquirido algum d'entre os livros roubados
+por esta occasião da Vaticana. É de presumir que o _Libro di
+Portoghesi_ fosse o Cancioneiro de que só resta o Indice, e sendo
+assim, perder-se-hia em poder de Messer Octaviano de messer Barbarino;
+se o libro _da Ribera_ é o manuscripto de Bernardim Ribeiro, impresso
+mais tarde em Ferrara, então pode fixar-se a perda do Cancioneiro
+n'esse mesmo anno em que morreu Colocci. O inventario dos seus livros,
+feito a 27 de Outobro de 1558, nove annos depois da sua morte,
+explica-nos como os livros que estavam emprestados ficaram perdidos.
+Pelo Indice d'este Cancioneiro, achado por Monaci, vê-se que elle
+constava de mil seiscentas e setenta e cinco canções, mais quatro
+centas e setenta, omissas no apographo da Vaticana, hoje publicado.
+
+6. Il Canzoniere portoghese della Bibliotheca Vaticana, n°. 4803.
+Messo a stampa de Ernesto Monaci. Halle, 1875.
+
+Desde 1847, que o brasileiro Lopes de Moura publicou em Paris um
+excerpto do grande Cancioneiro portuguez da Vaticana, contendo as
+canções de el-rei Dom Diniz. Como se veiu a conhecer a existencia
+d'este precioso codice em Roma? Desde o principio do seculo XVII que
+elle entrara na Bibliotheca do Vaticano pela doação dos livros de
+Fulvio Orsini; no seculo XVIII, segundo Varnhagem, era citado por um
+bibliophilo hespanhol junto com outros codices de poesias catalans e
+valencianas; o facto de existir com encadernação moderna e com a
+insignia papal de Pio VII (1800--1823) explica-se pela reparação e ao
+mesmo tempo pelo interesse que houve em conservar o cancioneiro
+formado de cadernos differentes e incompletos, e escriptos com tinta
+corrosiva que o pulverisa. Wolf, por intervenção do slavista Kopitar,
+mandou fazer as primeiras investigações no Vaticano para descobrir
+este codice de que tinha vago conhecimento pela vaga allusão de Nunes
+de Leão; foram infructuosas as tentativas; o visconde da Carreira,
+embaixador em Roma, avisado por um franciscano (por ventura o P.
+Roquete, como se sabe pelo prologo da edição de Moura) conseguiu a
+copia da parte publicada em Paris por Aillaud. Desde 1847 até hoje,
+nunca o governo portuguez, nem a Academia real das Sciencias
+comprehenderam o valor d'este monumento. A reproducção das nossas
+riquezas litterarias têm sido sempre feita por estrangeiros, e a
+publicação d'este importantissimo cancioneiro foi agora realisada por
+um rapaz desajudado de subsidios academicos, mas animado pelo amor da
+sciencia. A edição feita em Halle, appresenta todo o rigor
+diplomatico, de modo que os erros do copista italiano do seculo XVI
+podem restituir-se á leitura do portuguez do codice primitivo; apesar
+d'este subsidio, Monaci tentou com um seguro tino critico uma tabella
+dos principaes erros systematicos, e um indice das necessarias
+restituições que se podem fazer em cada canção; em fim, tudo quanto é
+preciso para a intelligencia do texto, existe ali. Monaci conservou a
+disposição do manuscripto na reproducção typographica, já a uma ou a
+duas columnas, com todos os vestigios das differentes numerações e
+siglas referentes a outros codices analogos e mais antigos. Pelo seu
+prologo, de uma precisão rigorosa, se vê toda a historia externa do
+Cancioneiro. O Codice da Vaticana está em papel de linho, com trez
+marcas de agua differentes, tal como se empregava nas edições do
+Varisco; a letra é italiana, tal como a dos documentos do fim do
+seculo XV e principio do seculo XVI, proveniente de dois copistas, um
+que escreveu as poesias, algumas rubricas e notas, outro a maior parte
+dos nomes, as numerações e algumas postillas, contando ao todo 210
+folhas. Da descripção d'este cancioneiro conclue-se, pelo estado em
+que se acha, que outro ou outros cancioneiros foram n'elle copiados ou
+confrontados. A primeira nota que se depara ao abril-o é: "_Manca da
+fol. IJ a fol. 43_;" isto quer dizer, que o cancioneiro foi copiado de
+um outro codice que já se achava assim fragmentado, mas que mais tarde
+foi confrontado com outro que estava completo, como veremos na relação
+com o Indice de Colocci.
+
+Ao começar o texto acha-se outra referencia: "_A fogli 90_" e segue-se
+a canção de Fernão Gonçalves, o que parece significar, que n'este
+cancioneiro existia outra disposição das poesias á qual se refere este
+numero, que continúa a cotar successivamente outras canções,
+entremeiando-se com numeros romanos, que parecem estabelecer
+referencia a outro cancioneiro. Separemos estas duas ordens de
+numeros, por onde deduzimos o confronto com dois cancioneiros; para se
+localisar melhor a referencia que era de folhas e verso, indicaremos a
+numeração actual das canções: Fol. 91 (canc. 8), 92 (canç. 11); _Fol.
+97 desunt multa_ (canç. 43 fine); junto da canção 61, vem a sigla
+_Desunt_; junto da 63 vem _car_. 106; junto da canção 299: _"Fol. 141
+Al vo"_ (del volumen?); junto da canção 507 vem: "173 _a tergo"_ e
+algumas canções com dois nomes de auctores, como _Martin Campina_ ou
+_Pero Meogo_, como forme a attribuição de um ou outro texto (canc.
+796.). Por fim termina com esta outra rubrica: _"A fol. 290 è
+cominciata una Rubrica e non è finita di copiare"_. Tudo isto prova,
+que se fez o confronto d'este apographo existente cum um codice mais
+completo, seguindo-se o confronto até á folha 300 d'esse codice
+perdido.
+
+O confronto do Codice por meio da numeração romana não prosegue até ao
+fim; apenas se acha LXXXVJ junto da canção 4; LXXXVIIJ junto da Canção
+14; LXXXVIIIJ junto da canção 26 _fine;_ XCVJ junto da canção 39 a 45;
+XCVIIJ coincide com a referencia anterior, junto da canção 49; XCVIIIJ
+á canção 55; CXII á 62; CXIIIJ á canção 70; CXVIJ á canção 77. Esta
+numeração romana adianta-se aqui mais do que a arabe, signal de que
+havia divergencia entre os dois codices que serviam para confrontação
+com o apographo publicado. É certo porem, que a numeração romana
+termina antes do corpo das canções de el-rei Dom Diniz, d'onde se
+poderá inferir, que até esta parte contribuiu um cancioneiro parcial,
+e que de Dom Diniz só entrava no que era numerado em algarismos. Que
+existiam diversos cancioneiros, pelas mesmas canções d'este codice se
+pode conhecer, como pela canção de D. Affonso de Castella (canç. 76)
+em que allude ao _Livro dos Sons_, que era um cancioneiro com que o
+Dayão de Cales seduzia as mulheres. Na sua edição Monaci deixou
+apontados em um indice fundamental todas as canções repetidas no
+cancioneiro, ou aquellas que mutuamente se plagiavam. Da sua
+comparação se podem tirar poderosas inducções, para se estabelecer
+quantos pequenos cancioneiros haviam servido para formarem o
+cancioneiro grande, do qual o apographo publicado é uma copia. É o que
+vamos tentar.
+
+_Pequenos Cancioneiros que entraram na formação do Cancioneiro da
+Vaticano_.--A canção 4, de _Sancho Sanches_, apparece repetida com
+mais duas estrophes e assignada por _Pero da Ponte_, sob o numero 569;
+a 2ª e 3ª strophes da versão de Pero da Ponte, faltam na canção de
+Sancho Sanches. As strophes communs têm as seguintes variantes:
+
+    _Sazom foi já_, que me teve em desdem (n°. 4)
+    _Tal sazom foi_, que me teve em desdem (nº. 569).
+
+    _Que com'é mais j'agora_ seu amor (n°. 4)
+    _Quando me mays forçava_ seu amor. (n°. 569).
+
+    E ora _já_ que pes'a mha senhor (n°. 4)
+    E ora _mal_ que pes'a mha senhor (n°. 569).
+
+Evidentemente estas duas canções foram colligidas de dois cancioneiros
+parciaes, e elles mesmos escriptos em grande parte de memoria.
+
+A canção 13, de Mem Rodrigues Tenoyro, têm apenas uma estrophe, mas
+repete-se sob o numero 319 com o nome do mesmo trovador e com mais
+duas estrophes que a completam. Deve attribuir-se essa divergencia ao
+ter sido colligida de dois cancioneiros, formado por diversos
+collecctores.
+
+A canção 29, assignada por João de Guilhade, repete-se sob o numero 38
+com o nome do trovador Stevam Froyam; existem entre ellas leves
+variantes, mas como estão immensamente deturpadas, só pelos dois
+textos se reconstruem. Por este facto se vê, que houve compilação de
+dois cancioneiros, e que o copista mal percebia a letra e fazia
+selecção das canções.
+
+A canção 116 e 174, do cancioneiro de Dom Diniz, são uma e mesma,
+havendo entre estes dois numeros _variantes_, e sobretudo a 2ª e 3ª
+estrophe alternadas. Não proviria isto dos originaes, escriptos por
+esmerados copistas, que se guardaram na Bibliotheca de el-rei Dom
+Duarte; este facto prova-nos, que o corpo das canções de Dom Diniz,
+que na collecção Vaticana occupa dos n.'os 80 até 208 proveiu de
+copias avulsas de differentes palacianos, e talvez do proprio Conde D.
+Pedro.
+
+A canção 241, do trovador Payo Soares, apparece com o numero 413
+repetida sob o nome de Affonso Eanes de Coton (Cordu); tem apenas uma
+rapida variante ortographica, mas tanto o facto da repetição, como o
+da attribuição a dois trovadores differentes accusam duas colleções
+parciaes.
+
+A canções 457 e 469 pertencem a Ayres Nunes Clerigo e são uma unica,
+com a differença que as trez strophes de que constam, tem os versos
+baralhados sem systema; o que se explica pelo caracter jogralesco,
+isto é, que foram duas vezes colligidas no tempo em que eram cantadas
+a caprixo de Ayres Nunes ou de qualquer outro jogral, que as sabia de
+cór; ou então, que provieram de dois cancioneiros onde as duas canções
+se differenciavam pela razão acima indicada.
+
+A sirvente 472 de Martim Moxa apparece sob o numero 1036, em nome de
+Lourenço, jograr de Sarria, com variantes fundamentaes, que provam
+compilação de dois cancioneiros diversos. O caracter sirventesco fez
+talvez que varios jograes regeitassem a paternidade d'essa canção que
+verbera os privados da côrte de D. Affonso III.
+
+O numero 613 e 639 são uma mesma canção de João Ayres, burguez de
+Santiago; abundam as variantes entre estas duas composições, signal de
+que provieram de duas copias resultantes da monomania dos cancioneiros
+particulares. E sob o nome d'este mesmo trovador andam as duas canções
+repetidas 634 e 138, tendo esta ultima alem das variantes mais uma
+estrophe e um Cabo.
+
+Em nome do jogral João Servando apparecem repetidas as canções 738 e
+749 com variantes fundamentaes entre si:
+
+    Ora vou a Sam Servando,
+    donas, fazer romaria,
+    e nom me leixam com elas
+    hir, cá logo alá hiria
+      por que vem hy meu amigo. (738)
+
+    Donas vam a Sam Servando
+    muytas hoje em romaria,
+    mais nom quiz oje mha madre
+    que foss' eu hi este dia
+      por que vem hy meu amigo. (749)
+
+As outras variantes nas demais strophes são menos reparaveis, mas no
+numero 738 ha uma strophe a mais. A pequena distancia a que ficam uma
+da outra estas canções, provam-nos que o copista italiano transcreveu
+materialmente uma compilação já formada; e por tanto tudo quanto se
+pode concluir sobre estas canções identicas liga-se á formação d'esse
+cancioneiro perdido d'onde se trasladou o codice da Vaticana.
+
+Dois casos especiaes se davam n'essa formação do antigo cancioneiro:
+1° ou as canções se attribuiam na repetição a dois trovadores
+differentes taes como Sancho Sanches e Pero da Ponte, João de Guilhade
+e Stevam Froyam, Pay Soares e Affonso Eanes do Cotom, Martim Moxa e
+Lourenco Jograr; 2° ou se repetiam em nome do mesmo trovador, como Mem
+Rodrigues Tenoyro, el-rei D. Diniz, Ayres Nunes Clerigo, João Ayres, e
+João Servando. Para o primeiro caso conclue-se que contribuiram para a
+formação do grande cancioneiro pequenos cancioneiros trasladados de
+cantares dispersos, por curiosidade, ou tambem apanhados na corrente
+oral, porque um só collector notaria os plagiatos. Para o segundo caso
+poderiam os jograes terem contribuido com os seus cadernos de cantos e
+assim com lições differentes de um mesmo texto que se alterava pelas
+continuadas repetições.
+
+De todo este confronto se conhece a necessidade de estabelecer por
+todos os meios possiveis ás relações entre este apographo da Vaticana
+e os dois cancioneiros de Colocci, perdido, e o da Ajuda.
+
+_Relações do Cancioneiro da Vaticana com o Cancioneiro de Angelo
+Colocci_.--Antes de Monaci haver descoberto no Ms. n°. 3217 o Indice
+do Cancioneiro perdido do erudito quinhentista italiano Angelo
+Colocci, ja elle determinara pela forma por que está escripto o
+Cancioneiro da Vaticana, que deveria ter existido um original mais
+antigo e mais completo. A descoberta do Indice veiu authenticar a
+existencia d'esse Cancioneiro perdido e explicar pela letra do proprio
+Colocci, quem é que tinha feito o confronto. O illustre Monaci
+comprehendeu logo quanto util seria para a critica o comparar a lista
+dos trovadores do Cancioneiro perdido com a dos trovadores do
+Cancioneiro existente (Appendice I, p. XIX a XXIV); por uma simples
+inspecção fica o leitor habilitado a conhecer as profundas relações
+entre os dois cancioneiros; o de Colocci continha mil seis centas e
+setenta e cinco canções, e o da Vaticana contem mil duzentas e cinco,
+isto é, quatrocentas e setenta canções a menos, por ventura as que
+occupavam até a _fol_. 90. O numero das canções de cada trovador pode
+tambem ser confrontado, porque no Codice de Colocci as canções de
+Colocci eram numeradas por algarismos e cada nome de trovador é
+precedido pelo numero que limita as canções do antecedente. Assim,
+como já acima vimos, as canções de D. Diniz são no Codice da Vaticana
+cincoenta e uma a mais do que no de Colocci. Apezar d'isso as notas
+_desunt multa_ provam-nos que o Cancioneiro de Colocci era muito mais
+rico, como se vê pelos nomes dos seguintes trovadores que faltam no da
+Vaticana:
+
+Diego Moniz, que tinha ali uma canção; Pero Paes Bazoco, com sete
+canções; João Velaz, Dom Juano; Pero Rodrigues de Palmeyra; Dom
+Rodrigo Dias dos Conveyros; Ayres Soares; Osorio Annes; Nuno Fernandes
+de Mira-Peixe; Fernam Figueiredo de Lemos; Dom Gil Sanches; Ruy Gomes
+o Freyre; João Soares Fomesso; Nuno Eanes Cerzeo; Pero Velho de
+Taveirós; Pay Soares de Taveirós; Fernam Garcia Esgaravunha, do qual
+existiam dezessete canções; João Coelho; Pero Montaldo; duas canções
+do trovador genovez Bonifacio Calvo; o Conde D. Gonçalo Garcia; Dom
+Garcia Mendes de Eixo; El rei Dom Affonso IV, filho de el-rei D.
+Diniz, com quatro canções. No Codice de Colocci, as canções de D.
+Diniz não estavam em um corpo isolado, apresentando mais quatro
+composições destacadas no fim do cancioneiro. Esta parte tambem é
+omissa no Cancioneiro da Vaticana, por que aí se encontram outra vez
+trovadores dos supracitados, como João Garcia, D. Fernam Garcia
+Esgaravunha, Pero Mastaldo, Gil Peres Conde, Dom Ruy Gomes de
+Briteiros, Fernam Soares de Quiñones, etc. Pelo confronto do Indice de
+Colocci se conhece, que embora se sigam ao texto do Cancioneiro da
+Vaticana quatorze folhas em branco, nem por isso ficou muito distante
+do fim, por que só deixaram de ser copiadas algumas sirventes de
+Julião Bolseyro. D' este confronto se conclue: 1°. que o codice d'onde
+se extraíu a copia da Vaticana differia no numero das canções e na sua
+disposição do de Colocci; 2º. que as relações mutuas accusam fontes
+communs, mas colleccionação arbitraria no agrupamento dos differentes
+cancioneiros parciaes.
+
+_Relações do Cancioneiro da Vaticana com o Cancioneiro da Ajuda_. --
+Lopes de Moura foi o primeiro que encontrou na collecção da Vaticana a
+canção de João Vasques, _Muyt'ando triste no meu coraçom_, que existe
+anonyma no Cancioneiro da Ajuda. Logo depois, Varnhagem achou mais
+quarenta e nove canções communs aos dois codices, e nós mesmo ainda
+viemos a encontrar mais seis canções repetidas. São ao todo cincoenta
+e seis canções communs, facto importante para estabelecer as relações,
+que existiram entre os dois cancioneiros. Em primeiro logar, o
+Cancioneiro da Vaticana foi já copiado de um codice truncado, como por
+exemplo: a canção 43 tem a rubrica final: _"Fol.97 desunt multa"_ e a
+canção seguinte está truncada no principio; porem estas canções de
+João Vasques completam-se pelo Cancioneiro da Ajuda, canção n°. 272 e
+273 (ed. _Trovas e Cantares_). Isto prova, que embora o Cancioneiro da
+Ajuda esteja truncado e por seu turno se complete com algumas canções
+do codice de Roma (_y_, das _Trovas_ == n°. 38, _Canc. da Vat._) ambos
+provieram de fontes differentes, porque tambem nas cincoenta e seis
+canções communs existem notaveis variantes:
+
+    _Nostro senhor_, que lhe bom prez foi dar. (Vatic.)
+    _Deus_ que lhe _mui_ bom _parecer_ foi dar. (Ajuda)
+
+N'esta variante o original do codice vaticano mostra-se mais archaico
+na linguagem. Na canção 46, de Fernão Velho (no codice da Ajuda, n°.
+92) no primeiro verso da 2ª strophe vem uma variante que denota erro
+do copista portuguez conservado inconscientemente pelo antigo copista
+italiano:
+
+    E _mha_ senhor fremosa de bom _parecer_ (Vatic.)
+    E _mia_ senhor fremosa de bom _prez._ (Ajud.)
+
+_Prez_ é uma contracção de _preço_, e d'aqui resultou que o copista
+portuguez traduziu inconscientemente; como organisado no paço, o
+Cancioneiro da Ajuda seria formado directamente da contribuição dos
+muitos trovadores que o frequentavam; o Cancioneiro de Roma era já
+derivado de um apographo secundario, truncado no principio, meio e
+fim, e em certos pontos mais archaico.
+
+Na canção 47 da Vaticana (93 da Ajuda) pertencente a Fernão Velho,
+vem:
+
+    Quant' eu, _mha senhor, de vós_ receei... (Vatic.)
+    Quant' eu _de vós, mia senhor_ receei (Ajud.)
+
+    E vos dix'o _mui_ grand'amor que ei (Vatic.)
+    E vos dix'o grande amor que _vós_ ei (Ajud.)
+
+A canção 48 da Vaticana, apesar das imperfeições da copia italiana,
+pode ser reconstruida pelo typo strophico, porem a nº. 94 da Ajuda
+ficou incompleta:
+
+  _Lição da Ajuda:                      Lição da Vaticana:_
+
+  E mal dia naci, senhor,              E mal dia naci, senhor,
+    Pois que m'eu d'u vós sodes, vou;    pois que m'eu d'u vos sodes, vou;
+    Ca mui bem sou sabedor               ca mui bem som sabedor
+    Que morrerei u nom jaz al;           que morrerey hu nom ey al;
+    Pois que m'eu d'u vós sodes, vou.    poys que m'eu d'u vos sodes, vou,
+    .............                        pois que de vos ei a partir _por mal._
+
+    .............                      E logo hu m'eu de vós partir
+    .............                        morrerey se me deus nom val.
+
+A canção 53 da Vaticana (Ajuda, nº. 99), tem uma strophe mais
+imperfeita do que no codice da Ajuda; mas en compensação tem o _Cabo_,
+que falta no codice portuguez:
+
+  _Ajuda:                                    Vaticana:_
+
+  Meus amigos, muito me praz....            Meus amigos muyto mi praz _d'amor._
+    Cá bem pode partir da mayor               Ca bem me pode partir da mayor
+    Coita de quantas eu oy falar,             coyta de quantas eu oy falar,
+    De que eu fuy muyt'_y_ a soffredor;       do que eu fuy muyt'ha sofredor
+    Esto sabe deus, que me foy mostrar        _e sabe deus hu a vi bem falar_
+    Uma dona que eu vi bem falar              e parecer, por meu mal, eu o sey.
+    E parecer por meu mal, e o sei.
+    .............                           Ca poys m'elles nom querem emparar
+    .............                             e me no seu poder querem leixar,
+    .............                             nunca por outra emparado serey.
+
+A canção 395, de Payo Gomes Charrinho, repetida no cancioneiro da
+Ajuda, n°. 276, tambem revela duas fontes diversas:
+
+    e nom lh'ousey mays _d'atanto_ dizer (Vatic.)
+    e nom lh'ousey mais _d'aquesto_ dizer. (Ajud.)
+
+    nem _er cuidey_ que tam bem parecia (Vatic.)
+    nem _cuidava_ que tambem parecia (Ajud.)
+
+    mays _quand'_eu vi o seu bom parecer (Vatic.)
+    mais _u_ eu vi o seu bom parecer. (Ajud.)
+
+No codice da Vaticana tem esta canção apenas trez estrophes; porem no
+da Ajuda termina com uma quarta:
+
+    E por esto bem consellaria
+      quantos oyrem-no seu bem falar
+      nom a vejam, e podem-se guardar
+      melhor ca m'end'eu guardei, que morria,
+      e dixe mal, mais fez-me deus aver
+      tal ventura, quando a fui veer
+      que nunca dix'o que dizer queria. (Ajuda)
+
+Evidentemente as alterações de linguagem não foram do copista
+italiano, porque, comparativamente, a expletiva _er_ é mais archaica;
+e por tanto a omissão da 4ª strophe não foi casual, mas resultante do
+estado d'outra fonte.
+
+A canção 400, da Vaticana, tambem de Payo Gomes Charrinho, tem leves
+variantes na canção 278 da Ajuda, mas importantissimas omissões; assim
+no Codice de Roma, falta na primeira strophe o verso:
+
+    me quer matar e guaria melhor (Vat.)
+
+e tambem faltam duas strophes completas com o seu Cabo.
+
+A canção 428, ainda de Charrinho, tambem no Codice da Ajuda, n°. 285
+offerece leves variantes; porem no Codice da Vaticana alternam-se a
+segunda com a terceira strophe, e falta este Cabo da lição da Ajuda:
+
+    E entend'eu cá me quer a tal bem
+      em que nom perde, nem gaano en rem.
+
+A canções 485, 486 e 487 da Vaticana, do trovador Ruy Fernandes,
+acham-se nos pequenos fragmentos legiveis nas folhas do Cancioneiro da
+Ajuda, que serviram de guardas á encadernação do Nobiliario; esses
+fragmentos, seguindo a edição do Varnhagem são _m, n, o_; ainda assim
+se conhece por elles que existiam divergencias entre os dois codices:
+
+    _Ajuda, (m):_                     _Vaticana_, n°. 485:
+    A _guisa_ de vos elevar           a _forza_ de vos elevar
+    Por mia morte nom _aver_.         por mha morte nom _aduzer_.
+
+    _Ibid., (n):_                     _Ibid._, n°. 486:
+    _Amigos_, começa o meu mal.       _Ora_ começa o meu mal.
+
+As canções de Fernão Padrom, n'os. 563, 564, 565, a que achámos as
+analogas nos numeros 126, 127 e 128 do codice da Ajuda, tambem
+apresentam variantes.
+
+As canções n°. 566, 567, 568, 569 e 570, que andam em nome de Pero da
+Ponte no codice da Vaticana e apparecem anonymas no Cancioneiro da
+Ajuda, n'os. 112, 113, 114, 115 e 116 não appresentam mais variantes
+que a simples modificação ortographica em _mha_ e _mia_, que poderia
+provir das differentes epocas das copias. Esta conformidade entre o
+texto da Vaticana e o da Ajuda, leva-nos a concluir que pequenos
+cancioneiros entraram na coordenação de um grande cancioneiro, e que
+as canções mais conformes são aquellas que andaram em menor numero de
+copias antes de se agruparem na collecção geral.
+
+Já com relação ás Canções de Vasco Rodrigues de Calvelo, apparecem
+variantes e deturpações que não provêm do copista do seculo XVI, mas
+de codices diversos ja corruptos; a canção 580 comparada com a 265 da
+Ajuda tem uma lição menos pura, incompleta, mas differente:
+
+  _Lição da Ajuda:                           Lição da Vaticana:_
+  Per uma dona que quero gram bem       ..... que quero gram bem.
+
+  Com'a mim _fez_; ca des _que eu_ naci Como a mim _faz_; que des _quando_ naci
+    nunca vi ome _en_ tal coita _viver_   nunca vi ome tal coita _sofrer_
+    como eu _vivo_ por melhor bem querer  como eu _sofro_ por melhor bem querer
+
+  Com'_a mim fez muy_ coitado d'amor     Com'el _faz mim muy_ coitado d'amor.
+
+A lição da Ajuda termina com este Cabo, que falta no codice da
+Vaticana:
+
+  Com'a mim fez, e nunca me quiz dar
+  Bem d'essa dona, que me fez amar.
+
+A canção 581, tambem de Vasco Rodrigues de Calvelo, sob a designação
+_e_ da lição da Ajuda (ed. _Trov. e Cant._) alem das mutuas variantes,
+tem a 2ª e 3ª a strophes alternadas:
+
+    E se _soubess'_em qual coyta d'amor (Vatic.)
+    Se _lh'eu dissess'_em qual coita d'amor (Ajud.)
+
+    per nulha guisa, _pero m'_ey _sabor_ (Vatic.)
+    Per nulha guisa, _ca_ ey _gram pavor._ (Ajud.)
+
+De mais no Codice de Roma falta este Cabo:
+
+    Mais de tod'esto nora lhi dig'eu rem,
+    Nem lh'o direy, cá lhe pesará bem.
+
+Na Canção 582, do mesmo trovador, ha esta divergencia:
+
+    E rogo _sempre_ por mha morte a deus (Vatic.)
+    Et rogo _muito_ por mia morte a deus (Ajud.)
+
+Na Canção 584, tambem de Calvelos, falta esta terceira estrophe, que
+vem no codice da Ajuda:
+
+    Como vós quiserdes será
+    De me fazerdes mal e bem
+    E pois é tod'em vosso sen
+    Fazed'o que quizerdes já...
+
+A canção 677, de Pero de Armêa, acha-se imitada no codice da Ajuda,
+nº. 56, por forma que a da Vaticana apresenta um caracter de maior
+vulgarisação, e por isso de proveniencia jogralesca:
+
+  _Lição da Ajuda:_                    _Lição da Vaticana:_
+
+  Muitos me veem preguntar,            Muytos me veem preguntar,
+    mia senhor, a quem quero bem;        senhor, que lhes diga eu quem
+    e nom lhes queró end'eu falar       est a dona que eu quero bem
+    com medo de vos pesar en,            e com pavor de vos pesar
+    nem quer'a verdade dizer,           nom lhis ouso dizer per rem,
+    mais jur'e faço lhes creer          senhor, que vos quero bem.
+    mentira, por vos lhe negar.
+
+Duas canções de Pedro Solás, confrontadas com as do codice da Ajuda,
+acabam de separar definitivamente estes dois cancioneiros:
+
+  _Lição da Ajuda_ (nº. 123):         _Lição da Vaticana_ (nº. 824):
+
+  Nom est a de Nogueira             _E_ nom est a de Nogueira
+    A freira, que _mi poder tem;_      a freira que _eu quero bem,_
+    Mays _est_ outra _a_ fremosa       mays outra mais fremosa
+    A que me _quer'eu mayor bem;_      _e_ a que _mim em poder tem;_
+      E moyro-m'eu pola freira         e moir-m'eu pola freira
+      Mais nom pola de Nogueira.       mais nom pola de Nogueira.
+  ...................................................................
+
+  Se eu a _freira visse o dia       _E_ se eu _aquella freyra
+    O dia que eu quizesse_             hum dia veer podesse_
+    Nom ha coita no mundo              nom ha coita no mundo
+    Nem _mingua_ que houvesse          nem _pesar_ que _eu_ ouvesse
+      E moiro-me ...                    e moyro-me ...
+
+  _Se m' ela mi amasse              _E seu aquella freyra
+    Muy gram dereito faria,           veer podess'um dia
+    Cá lher quer'eu mui gram bem      nenhuã coita do mundo
+    E punh'y mais cada dia;_          nem pesar nom averia_
+      E moiro-me ...                    e moyro-me ...
+
+Estas duas variantes são elaborações differentes do mesmo trovador em
+epocas diversas, e por tanto os dois cancioneiros provêm
+effectivamente de duas fontes. A canção 825 da Vaticana, que se acha
+sob o numero 124 do Codice da Ajuda, apenas tem a terceira e quarta
+estrophes alternadas. O ultimo paradigma entre estes dois
+cancioneiros, apresenta uma composição (1061 da Vaticana, 253 da
+Ajuda) que pertence a João de Gaya, escudeiro da côrte de D. Affonso
+IV, por onde se fixa não só a epoca da colleccionação do codice de
+Lisboa, mas em que a fonte do Codice de Roma nos apparece mais
+completa:
+
+  _Lição da Ajuda:_                _Lição da Vaticana:_
+
+  Conselho, e quer-_se_ matar      Conselho e quer-me matar.
+                                   E assi me tormenta amor
+                                     de tal coyta, que nunca par
+                                     ouv'outr'ome, a meu cuydar,
+                                     assy morrerey pecador,
+                                     e, senhor, muyto me praz en
+                                     que prazer tomades por en
+                                     non no dev'eu arrecear.
+
+  E bem o _podedes fazer_          E bem o _devedes saber_, etc.
+
+Por todos estes factos se vê, que umas vezes o Codice de Roma é omisso
+com relação ao de Lisboa, o que se poderia impensadamente attribuir a
+incuria do copista; esta hypothese não pode ter logar, porque o
+Cancioneiro da Ajuda por muitissimas vezes apresenta eguaes omissões.
+Por tanto essas cincoenta e seis canções communs aos dois codices,
+entraram n'essas respectivas collecções provindo de codices parciaes e
+de differente epoca.
+
+_Relações do Cancioneiro da Vaticana com o apographo actualmente
+possuido por um Grande de Hespanha_. -- No _Cancioneirinho de Trovas
+antigas_, Varnhagem dá noticia no prologo, de ter encontrado em 1857
+na Livraria de um fidalgo hespanhol um antigo cancioneiro portuguez,
+que, pela canções de el-rei D. Diniz que elle continha, lhe suscitou o
+procurar as analogias que teria com o Cancioneiro da Vaticana n°.
+4803; tirou copia do citado Cancioneiro, e em 1858 procedeu em Roma ao
+confronto do codice madrileno com o da Vaticana. Começavam ambas as
+copias com a trova de _Fernão Gonçalves_, seguindo-se-lhe as duas
+canções de _Pero Barroso;_ ambos os codices combinam nos mesmos nomes
+de trovadores, na ordem das canções, e em geral nos erros dos
+copistas. Poder-se-ha concluir que estes dois apographos se derivam
+ambos do mesmo original? Não; apezar de Varnhagem não ser mais
+explicito na descripção do codice madrileno e guardar no mysterio o
+nome do possuidor, comtudo pelas cincoenta composições do
+_Cancioneirinho_ se descobrem profundas _variantes_, que se não podem
+attribuir a erro de leitura, ainda assim tão frequente em Varnhagem.
+
+Copiamos aqui essas variantes, para que se conclua pela existencia de
+um outro codice mais antigo, tambem perdido. Na canção II, a strophe
+3ª _(Cancioneirinho)_ acha-se assim:
+
+    Os cavalleiros e cidadãos
+      d'aqueste rey aviam dizer
+      e se deviam com sas mãos poer
+      outrosi donas e escudeiros
+      que perderam a tam bem senhor
+      de quem poss'eu dizer, sem pavor,
+      que não ficou dal nos christãos.
+
+Pelo codice de Roma vê-se a strophe construida da outro modo:
+
+    Os cavalleiros e cidadãos
+      que d' este rey aviam dinheiros
+      e outrosi donas e escudeiros,
+      matar se deviam por sas mãos ... (Canç. n°. 708.)
+
+Na canção VI, a strophe segunda e terceira _(Cancioneirinho)_ estão
+incompletas e interpolladas d'esta forma:
+
+    _Cancioneirinho:_              _Codice da Vaticana:_
+
+    E as aves que voavam          E as aves que voavam
+      Quando sayam canções          quando saya _l'alvor_
+      Todas d'amor cantavam         todas de amor cantavam
+      Pelos ramos d'arredor;        pelos ramos d'arredor;
+
+  Mais eu sei tal que escrevesse    mais nom sei tal que _i estevesse_
+  Que em al cuidar podesse          que em al cuidar podesse
+  Se nom todo em amor.              se nom todo em amor.
+
+Em pero dix'a gram medo:         _Aly stive eu muy quedo
+                                    quis falar e nom ousey_
+                                    em pero dix'a gram medo:
+  -- Mha senhor, falar-vos-ey       -- Mha senhor, falar-vos-ey
+  Hum pouco, se m' ascuitardes      um pouco, se m'ascuitardes
+  Mais aqui nom estarey.            _e ir-m'ey quando mandardes_
+                                    mais aqui nom estarei.
+
+                                           (Canc. nº. 554.)
+
+Pela lição da Vaticana, onde se vêem as duas strophes completas se
+infere que o defeito no _Cancioneirinho_ provem de um texto imperfeito
+e differente, porventura tirado do apographo hespanhol.
+
+Na canção XV _(Cancioneirinho)_ vem uma strophe imperfeita, porque é
+formada com duas, que lhe alteram o typo:
+
+    _Cancioneirinho:_          _Codice da Vaticana:_
+
+    E foi-las aguardar         E fui-las aguardar
+      E nom a pude ver;          e nom o pude achar
+        e moiro-me d'amor.          e moiro-me d'amor!
+                               E fui-las atender,
+                                 e nom no pude veer
+                                   E moiro-me d'amor.
+
+A canção XVII do _Cancioneirinho_ tem só trez strophes; na lição do
+Codice da Vaticana, ha mais esta:
+
+            Estas doas mui belas
+              el m'as deu, ay donzelas,
+              nom vol-as negarey;
+              mas cintas das fivelas
+              eu nom as cingirei.
+
+Com certeza esta deficiencia proveiu do apographo madrileno. Na canção
+XXI, a strophe 4ª está interpollada, e segundo a lição da Vaticana é
+que se conhece a proveniencia de outro codice:
+
+  _Cancioneirinho:_                     _Codice da Vaticana:_
+
+  Cá novas me disserom                  Ca novas me disserom
+    Que vem o meu amigo                   ca vem o meu amado
+    C'and'eu mui leda.                    e and' eu mui leda,
+                                          poys migu'é tal mandado;
+  _E cuido sempre no meu coraçom          poys migu'é tal mandado
+    Pois nom cuid'al, des que vos vi,     que vem o meu amado.
+    Se nom en meu amigo,
+    E d'amor sei que nulh'ome tem,_
+    Pois migo é, tal _mandades;_
+    Que vem o meu amado.
+
+Os versos sublinhados do _Cancioneirinho_, são visivelmente d'outra
+canção, porque tem outro typo strophico, e essa interpolação não se
+pode attribuir a erro de leitura de Varnhagem.
+
+Na canção XXV, ha uma 4ª strophe, que é repetição da 1ª; na lição da
+Vaticana não existe esta forma; evidentemente o editor do
+_Cancioneirinho_ seguiu aqui o codice madrileno.
+
+Na canção XLV falta esta strophe, que pela lição do texto da Vaticana
+se vê que é a segunda:
+
+    Nom ja em al d'esto som sabedor
+      de m'algum tempo quizera leixar
+      e leix'e juro nom a ir matar
+      mays poys la matam, serey sofredor
+      sempre de coyt'em quant'eu viver,
+      cá sol y cuido no seu parecer
+      ey muyto mais d'outra rem desejar.
+
+Na canção XLVI, falta esta 4ª strophe da lição da Vaticana:
+
+    Por en na sazom em que m'eu queixey
+      a deus, hu perdi quanto desejei
+      oy mais poss'en coraçom deus loar;
+      e por que me poz em tal cobro que ey
+      por senhor a melhor de quantas sey
+      eu, que poz tanto bem que nom ha par.
+
+A canção XLVIII encerra a prova definitiva de que o codice madrileno
+serviu de base da edição do _Cancioneirinho_, e que esse codice
+proveiu de uma fonte diversa do da Vaticana; aí se acham essas duas
+strophes, que faltam no codice de Roma:
+
+    O que se foi comendo dos murtinhos
+    E a sa terra foi bever os vinhos,
+          Nom vem al Maio.
+
+    O que da guerra se foi com espanto
+    E a sa terra se foi armar manto
+          Nom vem al Maio.
+
+Por outro lado no codice madrileno tambem faltam cinco strophes, por
+que são omissas no _Cancioneirinho:_
+
+    O que da guerra se foi com'emigo
+    pero nom veo quand'a preyto sigo
+          nom vem al Maio.
+
+    O que tragia o pendou a _aquilom_
+    e vendid'é  sempr'a traiçom
+          nom vem al Maio.
+
+    O que tragia o pendou sen oyto,
+    e a sa gente nom dava pam coyto,
+          nom vem al Maio.
+
+E no final da canção:
+
+    O que tragia pendom de cadarço
+    macar nom veo no mez de Março,
+          nom vem al Maio.
+
+    O que da guerra foy por recaùdo
+    macar em Burgos fez pintar escudo,
+          nom vem al Maio.
+
+Indubitavelmente o codice madrileno provém de uma outra fonte, por que
+tem omissões e accrescentamentos, que o differenciam do Codice da
+Vaticana; mas a ordem das canções e os nomes dos trovadores, communs
+aos dois, provam-nos que ambos foram copiados de cancioneiros já
+organisados dos quaes um era já apographo. A circumstancia de
+começarem ambos pela trova de _Fernão Gonçalves_, e de se lêr no
+codice do Roma a nota: _"Manca da fol. ij in fino a fol. 43"_
+provam-nos que o original primitivo já andava truncado e é isto o que
+dá a mais alta importancia ao Indice de Colocci do Cancioneiro perdido
+que era a cópia mais antiga, por que o monumento diplomatico estava
+ainda completo. Monaci não desconheceu o valor das variantes do
+_Cancioneirinho_.
+
+Depois de toda esta discussão sobre os diminutos vestigios que restam
+de alguns cancioneiros portuguezes dos seculos XIII e XIV, a
+aproximação de numerosos factos secundarios, e as inducções que se
+formam sobre elles, exigem uma recapitulação clara para que se possam
+tirar a limpo algumas conclusões geraes. Representamos os cancioneiros
+que são conhecidos por letras maiusculas, e aquelles cuja existencia
+se pode inferir pelas variantes são notados por letras minusculas; com
+estes signaes formaremos uma tentativa de filiação de todos esses
+cancioneiros em um schema, que poderá, ser modificado á medida que se
+descobrirem novos subsidios:
+
+A.] _O Livro das Cantigas do Conde de Barcellos_,--citado no seu
+testamento, e deixado a Affonso XI, tambem trovador. Tendo em vista o
+genio compilador do Conde e o andar ligado ao seu Nobiliario o Codice
+da Ajuda, cancioneiro de varios auctores, pode-se inferir que o _Livro
+das Cantigas_ não era exclusivamente do Conde, mas sim uma compilação
+sua. No Cancioneiro da Vaticana encontram-se canções do Conde, de
+Affonso XI e grupos de canções do Codice da Ajuda em numero de
+cincoenta e seis assignadas por fidalgos da côrte de D. Diniz.
+
+B.] _O Cancioneiro de D. Diniz (Livro das Trovas de Elrei Dom Diniz;_
+existiu separado em volume pelo que se sabe pelo Catalogo dos Livros
+de Uso de el-rei Dom Duarte. Foi encorporado no codice da Vaticana
+depois da canção 79. B¹.] Outro, dos Freires de Christo de Thomar.
+
+C.] _O Cancioneiro da Ajuda_, começa em folhas 41, a parte anterior
+está perdida e o final não chegou a ser terminado. Isto explica as
+pequenas relações com o Codice de Roma.--As 24 canções achadas na
+Bibliotheca de Evora e as guardas da encadernação do Nobiliario provam
+o muito que se perdeu d'este cancioneiro. Não se chegou a escrever a
+musica das canções, nem a inscrever-lhes os nomes dos auctores que as
+assignavam, e por isso conclue-se que não chegou a servir para a
+collecção de Roma, que é assignada. Não chegaram a entrar n'elle
+canções de el-rei D. Diniz, e portanto entre este e o Cancioneiro de
+Roma pode fixar-se a existencia de outro cancioneiro hoje
+desconhecido.
+
+D.] _O Cancioneiro de D. Mecia de Cisneros_, grande volume de cantigas
+visto pelo Marquez de Santillana, que o descreve; já continha o
+cancioneiro de D. Diniz, e os trovadores do Codice de Roma citados
+pelo Marquez. Seria a primeira compilação geral, feita mesmo em
+Hespanha?
+
+E.] _O apographo de Colocci_, perdido talvez pela occasião do saque de
+Roma em 1527, e do qual só se conserva o Indice dos Autores. Tinha
+intimas relações com o codice de D. Mecia. No principio apresentava
+varios _lais_ no gosto bretão e pelos _Nobiliarios_, vemos que o Conde
+Dom Pedro se refere ás tradições bretãs, e tambem el-rei Dom Diniz.
+Seria esta parte assimilada do _Livro das Cantigas_ do Conde de
+Barcellos?
+
+F.] _Cancioneiro da Vaticana, nº_. 4803; este é menos completo do que
+o antecedente, o que prova que foi copiado de outra fonte. Colocci por
+sua letra o emendou pelo codice hoje perdido. Tem este cancioneiro 56
+canções similhantes no Cancioneiro da Ajuda, com variantes notaveis,
+signal que ambos os Codices se derivam de duas fontes diversas. Tem
+uma parte relativa a successos da côrte de Dom Affonso IV, que provem
+de cancioneiros extranhos e posteriores ao Cancioneiro da Ajuda. A
+ordem dos trovadores não é a mesma do Indice de Colocci.
+
+G.] _Copia ms. de um Grande de Hespanha_.--Em cincoenta canções
+reproduzidas por Varnhagem acham-se variantes fundamentaes com
+relações á lição do codice de Roma, signal de que a copia alludida
+provém de uma fonte extranha e de epoca differente.
+
+Os cancioneiros desconhecidos, mas intermediarios aos supracitados são
+hypotheticamente:
+
+a, b.] Cancioneiros anteriores ás collecções da côrte de D. Diniz, com
+que se formou e, d'onde se trasladou o Cancioneiro da Ajuda, como se
+justifica pelas variantes dos 56 canções reproduzidas no de Roma.
+
+c.] Cancioneiro perdido, d'onde se não chegou a copiar nem a musica
+das canções nem o nome dos trovadores para o Cancioneiro da Ajuda.
+
+d.] Cancioneiro onde se encorporaram o _Livro das Cantigas_ e
+_Cancioneiro de D. Diniz_, o que justifica as differenças entre o
+Codice de Dona Mecia e o de Colocci.
+
+e.] Cancioneiro perdido, cuja existencia se induz das variantes entre
+o Cancioneiro da Vaticana, o de Colocci e o do grande de Hespanha.
+
+Eis por tanto a nossa tentativa de schema de filiação dos cancioneiros
+portuguezes dos seculos XIII e XIV:
+
+         a     b
+        \-------/
+            c
+            C    ABB¹
+           \---------/
+                D    d
+                /---------\
+                 E       e
+                        \-/
+                 G       F
+
+É provavel que esta connexão ache contradictores, porém aí ficam todos
+os elementos que pudemos agrupar, para que outros estabeleçam uma
+filiação mais verosímil. Só depois de estudada a historia externa do
+Cancioneiro da Vaticana é que se pode entrar com desassombro no
+desenho da grande epoca litteraria que elle representa. Bem o
+desejaramos fazel-o diante dos que estudam as producções do fim da
+edade media, para reconstruirmos de novo o livro dos _Trovadores
+galecio-portugueses_, escripto antes da posse de tamanhas riquezas. Á
+medida que em Portugal fôr renascendo o amor pela tradição nacional, o
+nome de Ernesto Monaci figurará como de um benemerito, que restituiu a
+este paiz um dos mais bellos monumentos do seu passado historico.
+
+   [1]  Fernão Lopes, _Chron. de D. Pedro_ I, cap. 31.
+   [2]  _Leges Wallice,_ p. 779, 861.
+   [3]  _Obras del Marquez de Santillana,_ p. XX.
+   [4]  _Hist. litter. de l'Italie,_ t.IV, p.17.
+   [5]  _Op. cit_, p.8.
+   [6]  _Ginguené, Hist. litt_, t. IV, p. 41.
+   [7]  _Tiraboschi, Storia della Letteratura italiana_, t. VII, 246.
+

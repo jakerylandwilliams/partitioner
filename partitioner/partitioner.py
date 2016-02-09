@@ -18,6 +18,8 @@ class partitioner(object):
                  seed = None
                 ):
         self.home = os.path.dirname(os.path.realpath(__file__))
+        with open(self.home+"/chars.txt","r") as f:
+            self.chars = f.read().strip().decode('utf8')
         self.seed = seed
         ra.seed(self.seed)
         self.case = case
@@ -74,7 +76,7 @@ class partitioner(object):
                 print("Specified dictionary does not appear to exist: "+self.dictionary)
                 sys.exit()
             for phrase in f:
-                phrase = phrase.strip().lower()
+                phrase = phrase.strip().decode('utf8').lower()
                 defined[phrase] = 1
 
                 words = re.split(" ",phrase)
@@ -128,6 +130,8 @@ class partitioner(object):
                 self.qs[pair] = PSUM/k
     
     def washText(self, text):
+        ## decode for utf8
+        text = text.decode('utf8')
         ## remove additional whitespace
         text = re.sub("^[ ]+","",text)
         text = re.sub("[ ]+$","",text)
@@ -188,7 +192,7 @@ class partitioner(object):
             
     def partitionText(self,text = "", textfile = "NA"):
         ## set things up
-        reg = re.compile("((\#|\@)?[a-zA-Z]+((\'|\-)[a-zA-Z]+)*\'?[ ]?)+")
+        reg = re.compile("((\#|\@)?["+self.chars+"]+((\'|\-)["+self.chars+"]+)*\'?[ ]?)+")
         self.counts = {}
         if textfile != "NA":
             try:
@@ -196,20 +200,22 @@ class partitioner(object):
                     text=f.read()
             except IOError:
                 print("Specified text file does not appear to exist: "+textfile)
-                sys.exit()            
+                sys.exit()
         text = self.washText(text)
         ## count the words/phrases
         for clause in reg.finditer(text):
-            clause = clause.group()
+            clause = clause.group()## .decode('utf8','ignore')
             partition = self.partition(clause)
             if type(partition) is dict:
                 for phrase in partition:
-                    self.counts.setdefault(phrase,0.)
-                    self.counts[phrase] += partition[phrase]
+                    if phrase != "":
+                        self.counts.setdefault(phrase,0.)
+                        self.counts[phrase] += partition[phrase]
             else:
                 for phrase in partition:
-                    self.counts.setdefault(phrase,0.)
-                    self.counts[phrase] += 1.
+                    if phrase != "":
+                        self.counts.setdefault(phrase,0.)
+                        self.counts[phrase] += 1.
                     
     def partition(self, text = "", textfile = "NA"):
         print("Partition method not yet set!")

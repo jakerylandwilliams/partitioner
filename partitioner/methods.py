@@ -93,10 +93,10 @@ class oneoff(partitioner):
             ends.append(end)
             start = 0
             for end in ends:
-                phrase = str(" ".join(words[start:end]))
+                phrase = " ".join(words[start:end])
                 partition.append(phrase)
                 start = end
         else:
-            phrase = str(words[0])
+            phrase = words[0]
             partition.append(phrase)
         return partition
