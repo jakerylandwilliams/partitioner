@@ -1,0 +1,26 @@
+[ ] create an annotate() function that takes text, makes suggestions, and requests user input!
+[ ] create an dumpqs() function that takes annotate() data, a qsname, and writes out MWE .tags-annotation output and partitioner qdumps data
+[ ] convert html entities into wysiwyg
+[ ] make .loadqs() soft on the forms, gapcounts, ltypecounts, and contractions
+[ ] update informed partition data, in general, and create for other languages
+[ ] load the different corpora independently
+[ ] create a strong README.md file
+[ ] update all of the tests
+[ ] update the setup file
+[ ] make a jupyter notebook highlighting examples
+
+[x] update the MANIFEST.in file
+[x] update the __init__.py file
+[x] remove old markup/hashtags/urls/etc. flags from initialization
+[x] remove text washing method altogether
+[x] move stochastic class to an .expextation() method
+[x] unify the .loadqs() with expectation
+[x] MWE should subsume the other two fixed-partition methods, collecting them all under .partition()
+[x] .partition(q = {"type" = 0.76, "POS" = 0.46}, C = 0., q0 = 1., POS = False, LFD = True, maxgap = 8)
+[x] negative q values impose 1-off random partitions, otherwise, MLP is just a specific threshold version of MWE!
+[x] would be good to remove newline characters (for space)
+[x] convert escaped quotes to quotes (maybe just remove escapes, after newlines)
+[x] remove leading and trailing white space
+[x] integrate all .partition() methods except stochastic
+[x] have the new .process() method preserve urls, email addresses, hashtags, and handles
+[x] remove the old method that builds qcounts

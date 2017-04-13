@@ -3,6 +3,4 @@ include LICENSE
 include README.md
 
 # Include the data files
-recursive-include partitioner/qdumps *
-recursive-include partitioner/dictionaries *
-
+recursive-include partitioner/data *
