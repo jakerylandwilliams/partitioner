@@ -3,7 +3,7 @@
 [ ] convert html entities into wysiwyg
 [ ] create a strong README.md file
 [ ] update all of the tests
-[ ] update the setup file
+[x] update the setup file
 [ ] make a jupyter notebook highlighting examples
 
 [x] separate the new DIMSUM from the STREUSLE data as sources

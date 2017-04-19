@@ -207,7 +207,7 @@ class partitioner(object):
     ## Fitness of the current counts Zipf/Simon model
     def testFit(self):
         self.rsq = "NA"
-        f = np.array(sorted(self.counts.values(), reverse=True))
+        f = np.array(sorted(self.frequencies.values(), reverse=True))
         N = float(len(f))
         M = sum(f)
         if M:
@@ -286,18 +286,18 @@ class partitioner(object):
         if type(partition) is dict:
             for phrase in partition:
                 if phrase != "":
-                    self.counts.setdefault(phrase,0.)
-                    self.counts[phrase] += partition[phrase]
+                    self.frequencies.setdefault(phrase,0.)
+                    self.frequencies[phrase] += partition[phrase]
         else:
             for phrase in partition:
                 if phrase != "":
-                    self.counts.setdefault(phrase,0.)
-                    self.counts[phrase] += 1.
+                    self.frequencies.setdefault(phrase,0.)
+                    self.frequencies[phrase] += 1.
 
     ## partitions a whole text file or string and stores counts
     def partitionText(self,text = "", textfile = "NA"):
         ## initialize the counts dictionary
-        self.counts = {}
+        self.frequencies = {}
         if textfile != "NA":
             try:
                 f = open(textfile, "r")
@@ -314,7 +314,7 @@ class partitioner(object):
     def partition(self, text = ""):
         self.isPartition = True
         partition = []
-        blocks, ALLPOS = self.process(text)
+        blocks, ALLPOS = self.process(text.decode("utf8"))
         
         ALLattached = {str(i): 0 for i in range(len(blocks)) if blocks[i] != " "} 
         ALLconnections = []

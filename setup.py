@@ -25,18 +25,18 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.0.4',
+    version='0.1.0',
 
     description='This is the text partitioner project for Python.',
     long_description=long_description,
 
     # The project's main homepage.
-    # url='https://github.com/jakerylandwilliams/partitioner',
-    url='http://jakerylandwilliams.github.io/partitioner/',
+    url='https://github.com/jakerylandwilliams/partitioner',
+    # url='http://jakerylandwilliams.github.io/partitioner/',
 
     # Author details
     author='Jake Ryland Williams and Andy Reagan',
-    author_email='andy@andyreagan.com',
+    author_email='jw3477@drexel.edu',
 
     # Choose your license
     license='Apache',
@@ -67,7 +67,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='text partitioning natural language',
+    keywords='text partitioning natural language processing multiword expressions named entity recognition',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -83,7 +83,7 @@ setup(
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
     # install_requires=['peppercorn'],
-    install_requires=[],
+    install_requires=['numpy', 'nltk'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
@@ -100,14 +100,66 @@ setup(
     # package_data={
     #     'sample': ['package_data.dat'],
     # },
-    package_data={'partitioner': ['qdumps/enwiktionary.json','dictionaries/enwiktionary.txt'], },
+    package_data={
+        'partitioner': [
+            "data/chars.txt",
+            "data/de-wikipedia_1-counts.json",
+            "data/de-wikipedia_1-forms.json",
+            "data/de-wikipedia_2-forms.json",
+            "data/el-wikipedia_1-counts.json",
+            "data/el-wikipedia_1-forms.json",
+            "data/en-contractions.json",
+            "data/en-lowlands-counts.json",
+            "data/en-lowlands-forms.json",
+            "data/en-ritter-counts.json",
+            "data/en-ritter-forms.json",
+            "data/en-streusle-counts.json",
+            "data/en-streusle-forms.json",
+            "data/en-ted-counts.json",
+            "data/en-ted-forms.json",
+            "data/en-trustpilot-counts.json",
+            "data/en-trustpilot-forms.json",
+            "data/en-tweebank-counts.json",
+            "data/en-tweebank-forms.json",
+            "data/en-wikipedia_1-counts.json",
+            "data/en-wikipedia_1-forms.json",
+            "data/en-wikipedia_2-counts.json",
+            "data/en-wikipedia_2-forms.json",
+            "data/en-wikipedia_3-counts.json",
+            "data/en-wikipedia_3-forms.json",
+            "data/en-wikipedia_4-forms.json",
+            "data/en-wiktionary-counts.json",
+            "data/en-wiktionary-forms.json",
+            "data/en-wordnet-counts.json",
+            "data/en-wordnet-forms.json",
+            "data/es-wikipedia_1-counts.json",
+            "data/es-wikipedia_1-forms.json",
+            "data/es-wikipedia_2-forms.json",
+            "data/fi-wikipedia_1-counts.json",
+            "data/fi-wikipedia_1-forms.json",
+            "data/it-wikipedia_1-counts.json",
+            "data/it-wikipedia_1-forms.json",
+            "data/nl-wikipedia_1-counts.json",
+            "data/nl-wikipedia_1-forms.json",
+            "data/pl-wikipedia_1-counts.json",
+            "data/pl-wikipedia_1-forms.json",
+            "data/pt-wikipedia_1-counts.json",
+            "data/pt-wikipedia_1-forms.json",
+            "data/ru-wikipedia_1-counts.json",
+            "data/ru-wikipedia_1-forms.json",
+            "data/ru-wikipedia_2-counts.json",
+            "data/ru-wikipedia_2-forms.json",
+            "data/ru-wikipedia_3-counts.json",
+            "data/ru-wikipedia_3-forms.json",
+            "data/ru-wikipedia_4-counts.json",
+            "data/ru-wikipedia_4-forms.json"
+        ],
+    },
 
     # Although 'package_data' is the preferred approach, in some case you may
     # need to place data files outside of your packages. See:
     # http://docs.python.org/3.4/distutils/setupscript.html#installing-additional-files # noqa
     # In this case, 'data_file' will be installed into '<sys.prefix>/my_data'
-    # data_files=[('qdumps', ['qdumps/enwiktionary.json']),
-    #             ('dictionaries', ['dictionaries/enwiktionary.txt'])],
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
