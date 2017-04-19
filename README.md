@@ -48,8 +48,7 @@ then navigate the repository's main directory and run:
 
 ## Contributors
 
-Jake Ryland Williams
-Andy Reagan
+Jake Ryland Williams and Andy Reagan
 
 ## License
 
