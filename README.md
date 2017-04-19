@@ -10,18 +10,18 @@ Thus, partitioner may be used to split texts "phrases" of one or more words.
 
 Usage for the base setup is quite simple. The following will utilize all of the English data sets, requiring significant memory to load the training data:
 
->>> from partitioner.tools import partitioner
->>> pa = partitioner()
->>> pa.partition("How could something like this simply pop up out of the blue?")
+\>\>\> from partitioner.tools import partitioner
+\>\>\> pa = partitioner()
+\>\>\> pa.partition("How could something like this simply pop up out of the blue?")
 ['How', ' ', 'could', ' ', 'something', ' ', 'like', ' ', 'this', ' ', 'simply', ' ', 'pop up', ' ', 'out of the blue', '?']
 
 The large data set with the memory overhead comes from English Wikipedia. While bulky, this data set provides a huge number of named entities. To load from a specific source, use:
 
->>> pa = partitioner(language="en", source="wiktionary")
+\>\>\> pa = partitioner(language="en", source="wiktionary")
 
 or one of the other data sets. To load all sets from a specific language (assuming data has been added beyond the starter data, which comes from Wikipedia), use:
 
->>> pa = partitioner(language="es", source="")
+\>\>\> pa = partitioner(language="es", source="")
 
 ## Motivation
 
@@ -33,15 +33,15 @@ https://arxiv.org/pdf/1608.02025.pdf
 
 Using pip from the command line:
 
->>> pip install partitioner
+\>\>\> pip install partitioner
 
 Alternatively, if using git from a command line first clone the repository:
 
->>> git clone https://github.com/jakerylandwilliams/partitioner.git
+\>\>\> git clone https://github.com/jakerylandwilliams/partitioner.git
 
 then navigate the repository's main directory and run:
 
->>> sudo python setup.py install
+\>\>\> sudo python setup.py install
 
 ## Contributors
 
