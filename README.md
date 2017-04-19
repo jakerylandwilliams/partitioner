@@ -15,6 +15,7 @@ Usage for the base setup is quite simple. The following will utilize all of the 
 \>\>\> pa = partitioner()
 
 \>\>\> pa.partition("How could something like this simply pop up out of the blue?")
+
 ['How', ' ', 'could', ' ', 'something', ' ', 'like', ' ', 'this', ' ', 'simply', ' ', 'pop up', ' ', 'out of the blue', '?']
 
 The large data set with the memory overhead comes from English Wikipedia. While bulky, this data set provides a huge number of named entities. To load from a specific source, use:
