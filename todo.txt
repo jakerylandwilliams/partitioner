@@ -5,8 +5,8 @@
 [ ] update all of the tests
 [ ] update the setup file
 [ ] make a jupyter notebook highlighting examples
-[ ] separate the new DIMSUM from the STREUSLE data as sources
 
+[x] separate the new DIMSUM from the STREUSLE data as sources
 [x] make .loadqs() soft on the forms, gapcounts, ltypecounts, and contractions
 [x] update informed partition data, in general, and create for other languages
 [x] load the different corpora independently
