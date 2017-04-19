@@ -11,7 +11,9 @@ Thus, partitioner may be used to split texts "phrases" of one or more words.
 Usage for the base setup is quite simple. The following will utilize all of the English data sets, requiring significant memory to load the training data:
 
 \>\>\> from partitioner.tools import partitioner
+
 \>\>\> pa = partitioner()
+
 \>\>\> pa.partition("How could something like this simply pop up out of the blue?")
 ['How', ' ', 'could', ' ', 'something', ' ', 'like', ' ', 'this', ' ', 'simply', ' ', 'pop up', ' ', 'out of the blue', '?']
 
