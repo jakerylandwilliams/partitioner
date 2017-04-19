@@ -1,14 +1,15 @@
-[ ] create an annotate() function that takes text, makes suggestions, and requests user input!
-[ ] create an dumpqs() function that takes annotate() data, a qsname, and writes out MWE .tags-annotation output and partitioner qdumps data
+[-] create an annotate() function that takes text, makes suggestions, and requests user input!
+[-] create an dumpqs() function that takes annotate() data, a qsname, and writes out MWE .tags-annotation output and partitioner qdumps data
 [ ] convert html entities into wysiwyg
-[ ] make .loadqs() soft on the forms, gapcounts, ltypecounts, and contractions
-[ ] update informed partition data, in general, and create for other languages
-[ ] load the different corpora independently
 [ ] create a strong README.md file
 [ ] update all of the tests
 [ ] update the setup file
 [ ] make a jupyter notebook highlighting examples
+[ ] separate the new DIMSUM from the STREUSLE data as sources
 
+[x] make .loadqs() soft on the forms, gapcounts, ltypecounts, and contractions
+[x] update informed partition data, in general, and create for other languages
+[x] load the different corpora independently
 [x] update the MANIFEST.in file
 [x] update the __init__.py file
 [x] remove old markup/hashtags/urls/etc. flags from initialization

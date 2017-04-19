@@ -6,7 +6,7 @@ import numpy as np
 from nltk.tag.perceptron import PerceptronTagger
 
 class partitioner(object):
-    def __init__(self, q0 = 1., C = 0., informed = True, qunif = .5, lengths = 0, qsname = "en-wiktionary", doPOS = False, doLFD = True, maxgap = 8, seed = None, q = {"type": 0.76, "POS": 0.46}):
+    def __init__(self, q0 = 1., C = 0., qunif = .5, lengths = 0, language = "en", source = "", doPOS = True, doLFD = True, maxgap = 8, seed = None, q = {"type": 0.76, "POS": 0.46}):
 
         ## universal initialization
         self.home = os.path.dirname(os.path.realpath(__file__))
@@ -14,12 +14,20 @@ class partitioner(object):
         with open(self.home+"/data/chars.txt","r") as f: ## load in the word characters
             self.chars = f.read().strip().decode('utf8')
             self.chars = re.sub(" ", "",self.chars)
-        self.builtins = [re.sub("-qcounts.json", "", f) for f in os.listdir(self.home+"/data/") if re.search("-qcounts.json", f)] ## update this call to suit new partition data 
 
+        self.files = {f for f in os.listdir(self.home+"/data/") if re.search("(counts|forms).json", f)}
+        self.datasets = {re.split("_", re.sub("-(counts|forms).json","",f))[0] for f in os.listdir(self.home+"/data/") if re.search("(counts|forms).json", f)}
+        self.source = source
+        self.languages = {re.split("-", re.split("_", f)[0])[0] for f in os.listdir(self.home+"/data/") if re.search("(counts|forms).json", f)}
+        self.language = language
+        
         ## method-setting parameters
         self.doLFD = doLFD        
         self.doPOS = doPOS
-        self.informed = informed        
+        if self.source + self.language:
+            self.informed = True
+        else:
+            self.informed = False
         self.q = q
         self.qunif = qunif        
         self.q0 = q0
@@ -52,38 +60,79 @@ class partitioner(object):
             print("maxgap must be a non-negative integer!")
             return
         
-        ## load partition data
-        self.qsname = qsname ## presently qsname does not do anything (loadqs is a fixed function)
-        if self.informed:
-            if self.qsname in self.builtins:
-                self.loadqs()
-            else:
-                print("Informed partitions must specify qsname for q-count information!")
-                print("qsname: \'"+self.qsname+"\' is not available. Make sure \'"+self.home+"/data/"+self.qsname+"-qcounts.json\' is available!")
-                print("Available options include:\n"+"\n".join(self.builtins))
-                return
-        else:
-            self.qs = {"type": {}, "POS": {}}
-            self.forms = {"type": {}, "POS": {}}
-            self.contractions = {}
-            self.ltypecounts = {"type": {}, "POS": {}}
+        ## clear and load partition data
+        self.clear()
+        self.load()
+
+    ## clears out the partition data
+    def clear(self):
+        self.counts = {"link": {"type": {}, "POS": {}},"strength": {"type": {}, "POS": {}}}
+        self.forms = {"type": set(), "POS": set()}
+        self.contractions = {}
+        self.informed = False
 
     ## loads the partition data
-    def loadqs(self):
-        with open(self.home+"/data/en_counts.json","r") as f:
-            self.qs = json.loads(f.read())
-        with open(self.home+"/data/en_forms.json","r") as f:
-            self.forms = json.loads(f.read())
-        with open(self.home+"/data/en_gapcounts.json","r") as f:
-            gapcounts = json.loads(f.read())
-            for ky in gapcounts:
-                for pair in gapcounts[ky]:
-                    self.qs[ky][pair] = gapcounts[ky][pair]
-
-        with open(self.home+"/data/en_ltypecounts.json","r") as f:
-            self.ltypecounts = json.loads(f.read())
-        with open(self.home+"/data/en_contractions.json","r") as f:
-            self.contractions = json.loads(f.read())                
+    def load(self):
+        ## find all of the sources to load
+        sources = []
+        if self.language:
+            if self.source:
+                sources.append(self.source)
+            else:
+                for dataset in self.datasets:
+                    if self.language == dataset[0:2]:
+                        sources.append(dataset[3:])
+        else:
+            return
+        
+        ## go through all requested sources for this language
+        for source in sources:
+            dataset = self.language+"-"+source
+            if dataset in self.datasets:
+                self.informed = True
+                denoms = {"link": {"type": 0., "POS": 0.}, "strength": {"type": 0., "POS": 0.}}
+                counts = []
+                for f in self.files:
+                    ## integrate forms data
+                    if re.search(dataset+".*?-forms.json", f):
+                        with open(self.home+"/data/"+f, "r") as fh:
+                            forms = json.loads(fh.read())
+                            for form in forms["type"]:
+                                self.forms["type"].add(form)
+                            for form in forms["POS"]:
+                                self.forms["POS"].add(form)
+                    ## get counts data ready for integration
+                    if re.search(dataset+".*?-counts.json", f):
+                        with open(self.home+"/data/"+f, "r") as fh:
+                            for k, d in json.loads(fh.read()).items():
+                                if k == "ltypecounts":
+                                    k = "strength"
+                                else:
+                                    k = "link"
+                                counts.append([k, d])                        
+                                denoms[k]["type"] += d["denoms"]["type"]
+                                denoms[k]["POS"] += d["denoms"]["POS"]
+                ## combine counts with existing
+                for k, d in counts:
+                    for ky in ["type", "POS"]:
+                        for countkey, pairs in d[ky].items():
+                            cts = map(int,re.split(",", countkey))
+                            for pair in pairs:
+                                self.counts[k][ky].setdefault(pair, [0.,0.])
+                                self.counts[k][ky][pair][0] += cts[0]/denoms[k][ky]
+                                self.counts[k][ky][pair][1] += cts[1]/denoms[k][ky]
+                ## try to load contractions, provided data are available for this language
+                try:
+                    with open(self.home+"/data/"+self.language+"-contractions.json","r") as f:
+                        self.contractions = json.loads(f.read())
+                except IOError:
+                    print("Warning: no known contractions for the "+self.language+" language.")
+            ## return warning if requested partition data does not exist in repository
+            else:
+                print("Informed partitions must specify qsname for q-count information!")
+                print("source: \'"+source+"\' is not available for language: "+self.language+".\n Verify the files \'"+self.home+"/data/"+self.language+"-"+self.source+"-{counts,forms}.json\' are available!")
+                print("Available options are:\n"+"\n".join([re.sub("-", ": ",dataset) for dataset in self.datasets]))
+                return
 
     ## gets a partition probability
     def qprob(self, pair, ky = "type"):
@@ -93,7 +142,7 @@ class partitioner(object):
         ## then return value is (self.q[ky] +/- 1)
         ## with probability qprob()/1-qprob
         if self.informed:
-            qcounts = self.qs[ky].get(pair, [0,0])
+            qcounts = self.counts["link"][ky].get(pair, [0,0])
             if sum(qcounts):
                 pprob = float(qcounts[0] + self.C*self.q0)/(float(sum(qcounts)) + self.C)
             else:
@@ -144,7 +193,7 @@ class partitioner(object):
                 else:
                     form = "".join(terms[0:ix])
                 ## forms has all type-level and possibly POS forms, keyed by each
-                if self.forms[ky].get(form,False) or not ix - 1:
+                if form in self.forms[ky] or not ix - 1:
                     forpartition.append([indices[j] for j in range(0,ix)])
                     if len(terms) == 1:
                         terms = []
@@ -166,7 +215,7 @@ class partitioner(object):
             theta = -(1. - N/M)
             alpha = 1 + theta
 
-            fhat = np.array([((alpha + n - 1.)/(alpha*M))**theta for n in range(1,int(N)+1)])
+            fhat = np.array([((alpha + n - 1.)/N)**theta for n in range(1,int(N)+1)])
 
             r = (f - fhat)
             SSE = sum(r**2)
@@ -178,7 +227,6 @@ class partitioner(object):
                 self.rsq = 1.
         else:
             print("There's no data on which to test a fit!")
-            ## sys.exit()
             return
 
     ## tokenization
@@ -258,7 +306,6 @@ class partitioner(object):
                     
             except IOError:
                 print("Specified text file does not appear to exist: "+textfile)
-                ## sys.exit()
                 return
         else:
             self.update(partition = self.partition(text = text))
@@ -278,9 +325,12 @@ class partitioner(object):
             kys = ["type"]
             
         for ky in kys:
-            attached = {str(i): 0 for i in range(len(blocks)) if blocks[i] != " "} 
+            ## says who is being pointed to
+            attached = {str(i): 0 for i in range(len(blocks)) if blocks[i] != " "}
+            ## lists all links
             connections = []
-            unconnected = []
+            ## says who is pointing
+            attaching = {str(i): 0 for i in range(len(blocks)) if blocks[i] != " "}
             
             l_block = ""
             if ky == "POS":
@@ -304,7 +354,7 @@ class partitioner(object):
                     r_ix = i
                     if len(l_block) or (not len(l_block) and (firstword and ((len(punk) and ky != "POS") or (len(punk) > 1 and ky == "POS")) )):
                         pair = l_block + punk + r_block
-                        if self.ltypecounts[ky].get(pair, [0,0])[0] >= self.ltypecounts[ky].get(pair, [0,0])[1]:
+                        if self.counts["strength"][ky].get(pair, [0,0])[0] >= self.counts["strength"][ky].get(pair, [0,0])[1]:
                             thetype = "_"
                         else:
                             thetype = "~"
@@ -313,16 +363,18 @@ class partitioner(object):
                             if len(p_ix):
                                 connections = self.addconnection([l_ix, p_ix[0]], connections)
                                 attached[str(p_ix[0])] = thetype
+                                attaching[str(l_ix)] = thetype
                                 for j in range(0,len(p_ix)-1):
                                     connections = self.addconnection([p_ix[j], p_ix[j+1]], connections)
                                     attached[str(p_ix[j+1])] = thetype
+                                    attaching[str(p_ix[j])] = thetype
                                 connections = self.addconnection([p_ix[-1], r_ix], connections)
                                 attached[str(r_ix)] = thetype
+                                attaching[str(p_ix[-1])] = thetype
                             else:
                                 connections = self.addconnection([l_ix, r_ix], connections)
                                 attached[str(r_ix)] = thetype
-                        else:
-                            unconnected.append(l_ix)
+                                attaching[str(l_ix)] = thetype
 
                         #### end methods and qs loops
                         if ky == "POS":
@@ -346,7 +398,7 @@ class partitioner(object):
             if not len(r_block) and ((len(punk) and len(l_block) and ky != "POS") or (len(punk) > 1 and ky == "POS") ):
                 ## q and methods loop here
                 pair = l_block + punk
-                if self.ltypecounts[ky].get(pair, [0,0])[0] >= self.ltypecounts[ky].get(pair, [0,0])[1]:
+                if self.counts["strength"][ky].get(pair, [0,0])[0] >= self.counts["strength"][ky].get(pair, [0,0])[1]:
                     thetype = "_"
                 else:
                     thetype = "~"        
@@ -355,40 +407,44 @@ class partitioner(object):
                     if len(p_ix):
                         connections = self.addconnection([l_ix, p_ix[0]], connections)
                         attached[str(p_ix[0])] = thetype
+                        attaching[str(l_ix)] = thetype
                         for j in range(0,len(p_ix)-1):
                             connections = self.addconnection([p_ix[j], p_ix[j+1]], connections)
                             attached[str(p_ix[j+1])] = thetype
-                else:
-                    unconnected.append(l_ix)
-                ## end qs and methods loops
+                            attaching[str(p_ix[j])] = thetype
 
+                ## end qs and methods loops
+                
             ## handle gappy MWEs
             if self.maxgap:
-                for i in unconnected:
+                for i in attaching:
                     ## targets are either not attached in the current round, or not used in previous rounds
-                    targets = sorted([int(j) for j in attached.keys() if not attached[j] and int(j) > i and int(j) - i <= self.maxgap])
-                    for target in targets:
-                        if ky == "POS":
-                            pair = ALLPOS[i] + " _GAP_ " + ALLPOS[target]
-                        else:
-                            pair = blocks[i] + " _GAP_ " + blocks[target]
+                    if not attaching[i]:
+                        i = int(i)
+                        targets = sorted([int(j) for j in attached.keys() if not (attached[j] or attaching[j]) and (int(j) > i) and (int(j) - i <= self.maxgap)])
+                        for target in targets:
+                            if ky == "POS":
+                                pair = ALLPOS[i] + " _GAP_ " + ALLPOS[target]
+                            else:
+                                pair = blocks[i] + " _GAP_ " + blocks[target]
 
-                        if self.ltypecounts[ky].get(pair, [0,0])[0] >= self.ltypecounts[ky].get(pair, [0,0])[1]:
-                            thetype = "_"
-                        else:
-                            thetype = "~"
+                            if self.counts["strength"][ky].get(pair, [0,0])[0] >= self.counts["strength"][ky].get(pair, [0,0])[1]:
+                                thetype = "_"
+                            else:
+                                thetype = "~"
 
-                        if self.qprob(pair, ky) < self.q[ky]: ## options engage here
-                            connections = self.insertconnection([i, target], connections)
-                            attached[str(target)] = thetype
+                            if self.qprob(pair, ky) < self.q[ky]: ## options engage here
+                                connections = self.insertconnection([i, target], connections)
+                                attached[str(target)] = thetype
+                                attaching[str(i)] = thetype
+                                break
 
             connections = sorted(connections, key = lambda x: x[0])
-
+            
             ## apply the LFD
             if self.doLFD:
                 newConnections = []
                 for connection in connections:
-                ## apply the LFD here!
                     terms = []
                     indices = []
                     j = connection[0]
@@ -413,7 +469,7 @@ class partitioner(object):
                         if len(newConnection) > 1:
                             newConnections.append(newConnection)
                 connections = list(newConnections)
-
+                
             ## merge connections here
             for ix in attached:
                 if not ALLattached[ix]:
