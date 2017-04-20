@@ -110,8 +110,8 @@ class partitioner(object):
                 remotefile.close()
         else:
             for dataset in datasets:
-                for filename in datasets[choices[choice]]["files"]:
-                    print("downloading "+re.sub("-", ": ", re.split("_", re.sub("-(counts|forms).json","",f))[0]))
+                print("downloading "+dataset)                
+                for filename in datasets[dataset]["files"]:
                     remotefile = urlopen(dataURL + filename)
                     localfile = open(self.home+"/data/"+filename,'wb')
                     localfile.write(remotefile.read())
