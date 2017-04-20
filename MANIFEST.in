@@ -2,5 +2,6 @@
 include LICENSE
 include README.md
 
-# Include the data files
-recursive-include partitioner/data *
+# Include peripheral data files
+include data/chars.txt
+include data/en-contractions.json
