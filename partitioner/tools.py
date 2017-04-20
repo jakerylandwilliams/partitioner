@@ -3,6 +3,7 @@ import re, json, os
 import math as ma
 import random as ra
 import numpy as np
+from urllib2 import urlopen
 from nltk.tag.perceptron import PerceptronTagger
 
 class partitioner(object):
@@ -64,6 +65,22 @@ class partitioner(object):
         self.clear()
         self.load()
 
+    def download(self):
+        listURL = 'https://github.com/jakerylandwilliams/partitioner/tree/master/partitioner/data/'
+        dataURL = 'https://raw.githubusercontent.com/jakerylandwilliams/partitioner/master/partitioner/data/'
+        urlpath =urlopen(listURL)
+        string = urlpath.read().decode('utf-8')
+
+        filelist = [x[0] for x in re.findall("title=\"([^ ]*-(forms|counts).json)\"", string)]
+
+        for filename in filelist:
+            print("downloading "+re.sub("-", ": ", re.split("_", re.sub("-(counts|forms).json","",f))[0]))
+            remotefile = urlopen(dataURL + filename)
+            localfile = open(self.home+"/data/"+filename,'wb')
+            localfile.write(remotefile.read())
+            localfile.close()
+            remotefile.close()
+        
     ## clears out the partition data
     def clear(self):
         self.counts = {"link": {"type": {}, "POS": {}},"strength": {"type": {}, "POS": {}}}

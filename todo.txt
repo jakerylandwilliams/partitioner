@@ -1,11 +1,10 @@
 [-] create an annotate() function that takes text, makes suggestions, and requests user input!
 [-] create an dumpqs() function that takes annotate() data, a qsname, and writes out MWE .tags-annotation output and partitioner qdumps data
 [ ] convert html entities into wysiwyg
-[ ] create a strong README.md file
-[ ] update all of the tests
-[x] update the setup file
-[ ] make a jupyter notebook highlighting examples
 
+[x] update the setup file
+[x] create a decent README.md file
+[x] make a jupyter notebook with a few examples
 [x] separate the new DIMSUM from the STREUSLE data as sources
 [x] make .loadqs() soft on the forms, gapcounts, ltypecounts, and contractions
 [x] update informed partition data, in general, and create for other languages
