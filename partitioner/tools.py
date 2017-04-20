@@ -7,20 +7,26 @@ from urllib2 import urlopen
 from nltk.tag.perceptron import PerceptronTagger
 
 class partitioner(object):
-    def __init__(self, q0 = 1., C = 0., qunif = .5, lengths = 0, language = "en", source = "", doPOS = True, doLFD = True, maxgap = 8, seed = None, q = {"type": 0.76, "POS": 0.46}):
+    def __init__(self, q0 = 1., C = 0., qunif = .5, lengths = 0, language = "", source = "", doPOS = False, doLFD = False, maxgap = 0, seed = None, q = {"type": 0.5, "POS": 0.5}):
 
-        ## universal initialization
+        ## basic initialization stuff
         self.home = os.path.dirname(os.path.realpath(__file__))
         self.isPartition = False ## special flag makes sure 1-off partitions not thrown in expectations!
         with open(self.home+"/data/chars.txt","r") as f: ## load in the word characters
             self.chars = f.read().strip().decode('utf8')
             self.chars = re.sub(" ", "",self.chars)
 
+        ## check the data inventory
         self.files = {f for f in os.listdir(self.home+"/data/") if re.search("(counts|forms).json", f)}
         self.datasets = {re.split("_", re.sub("-(counts|forms).json","",f))[0] for f in os.listdir(self.home+"/data/") if re.search("(counts|forms).json", f)}
         self.source = source
         self.languages = {re.split("-", re.split("_", f)[0])[0] for f in os.listdir(self.home+"/data/") if re.search("(counts|forms).json", f)}
         self.language = language
+
+        ## suggest downloading data if no known data sets exist
+        if not len(self.datasets):
+            print("It appears you have no partition data!")
+            print("Consider running '.download()'")
         
         ## method-setting parameters
         self.doLFD = doLFD        
@@ -52,7 +58,7 @@ class partitioner(object):
 
         ## gappy expressions limits
         if type(maxgap) is int:
-            if maxgap > 0:
+            if maxgap >= 0:
                 self.maxgap = maxgap
             else:
                 print("maxgap must be a non-negative integer!")
@@ -70,17 +76,53 @@ class partitioner(object):
         dataURL = 'https://raw.githubusercontent.com/jakerylandwilliams/partitioner/master/partitioner/data/'
         urlpath =urlopen(listURL)
         string = urlpath.read().decode('utf-8')
-
-        filelist = [x[0] for x in re.findall("title=\"([^ ]*-(forms|counts).json)\"", string)]
-
-        for filename in filelist:
-            print("downloading "+re.sub("-", ": ", re.split("_", re.sub("-(counts|forms).json","",f))[0]))
-            remotefile = urlopen(dataURL + filename)
-            localfile = open(self.home+"/data/"+filename,'wb')
-            localfile.write(remotefile.read())
-            localfile.close()
-            remotefile.close()
         
+        ## gather data availability from the repo
+        filelist = [x[0] for x in re.findall("title=\"([^ ]*-(forms|counts).json)\"", string)]
+        datasets = {}
+        choices = {}
+        for f in filelist:
+            dataset = re.sub("-", ": ", re.split("_", re.sub("-(counts|forms).json","",f))[0])
+            datasets.setdefault(dataset, {"setnum": len(datasets)+1, "files": []})
+            datasets[dataset]["files"].append(f)
+            choices[str(datasets[dataset]["setnum"])] = dataset
+
+        ## display options
+        print("0) Download all")
+        for choice in map(str,range(1,len(choices)+1)):
+            print(choice+") "+choices[choice])
+        print("-1) Cancel download")
+        choice = raw_input("Please enter an option's number from the above: ")
+        while choice != "0" and choice != "-1" and choice not in choices:
+            print(choice+" was not a valid choice!")
+            choice = raw_input("Please enter an option's number from the above: ")
+
+        ## download data or return
+        if choice == "-1":
+            return
+        elif choice != "0":
+            print("downloading "+choices[choice])
+            for filename in datasets[choices[choice]]["files"]:
+                remotefile = urlopen(dataURL + filename)
+                localfile = open(self.home+"/data/"+filename,'wb')
+                localfile.write(remotefile.read())
+                localfile.close()
+                remotefile.close()
+        else:
+            for dataset in datasets:
+                for filename in datasets[choices[choice]]["files"]:
+                    print("downloading "+re.sub("-", ": ", re.split("_", re.sub("-(counts|forms).json","",f))[0]))
+                    remotefile = urlopen(dataURL + filename)
+                    localfile = open(self.home+"/data/"+filename,'wb')
+                    localfile.write(remotefile.read())
+                    localfile.close()
+                    remotefile.close()
+
+        ## update the inventory
+        self.files = {f for f in os.listdir(self.home+"/data/") if re.search("(counts|forms).json", f)}
+        self.datasets = {re.split("_", re.sub("-(counts|forms).json","",f))[0] for f in os.listdir(self.home+"/data/") if re.search("(counts|forms).json", f)}
+        self.languages = {re.split("-", re.split("_", f)[0])[0] for f in os.listdir(self.home+"/data/") if re.search("(counts|forms).json", f)}
+                    
     ## clears out the partition data
     def clear(self):
         self.counts = {"link": {"type": {}, "POS": {}},"strength": {"type": {}, "POS": {}}}
