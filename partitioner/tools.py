@@ -7,9 +7,10 @@ from urllib2 import urlopen
 from nltk.tag.perceptron import PerceptronTagger
 
 class partitioner(object):
-    def __init__(self, q0 = 1., C = 0., qunif = .5, lengths = 0, language = "", source = "", doPOS = False, doLFD = False, maxgap = 0, seed = None, q = {"type": 0.5, "POS": 0.5}):
+    def __init__(self, q0 = 1., C = 0., qunif = .5, lengths = 0, language = "", source = "", doPOS = False, doLFD = False, maxgap = 0, seed = None, q = {"type": 0.5, "POS": 0.5}, compact = True):
 
         ## basic initialization stuff
+        self.compact = compact
         self.home = os.path.dirname(os.path.realpath(__file__))
         self.isPartition = False ## special flag makes sure 1-off partitions not thrown in expectations!
         with open(self.home+"/data/chars.txt","r") as f: ## load in the word characters
@@ -348,7 +349,11 @@ class partitioner(object):
                     self.frequencies.setdefault(phrase,0.)
                     self.frequencies[phrase] += partition[phrase]
         else:
-            for phrase in partition:
+            for MWE in partition:
+                if self.compact:
+                    phrase = MWE
+                else:
+                    phrase = "".join([unit[1] for unit in MWE])
                 if phrase != "":
                     self.frequencies.setdefault(phrase,0.)
                     self.frequencies[phrase] += 1.
@@ -554,8 +559,8 @@ class partitioner(object):
         ix = 0
         for connection in ALLconnections:
             while ix < connection[0]:
-                ## partition.append([(ix+1, blocks[ix], ALLPOS[ix], "0")])
-                partition.append(blocks[ix])
+                partition.append([(ix+1, blocks[ix], ALLPOS[ix], "0")])
+                ## partition.append(blocks[ix])
                 ix += 1
             MWE = []
             MWE.append((connection[0]+1, blocks[connection[0]], ALLPOS[connection[0]], "0"))
@@ -568,19 +573,22 @@ class partitioner(object):
                             inGap.append([(k+1, blocks[k], ALLPOS[k], "0")])
                 MWE.append((connection[j]+1, blocks[connection[j]], ALLPOS[connection[j]], str(connection[j-1]+1)+ALLattached[connection[j]]))
             ix = connection[-1] + 1
-            ## partition.append(MWE)
-            partition.append("".join([unit[1] for unit in MWE]))
+            partition.append(MWE)
+            ## partition.append("".join([unit[1] for unit in MWE]))
             if len(inGap):
-                ## partition.extend(inGap)
-                for MWE in inGap:
-                    partition.append("".join([unit[1] for unit in MWE]))
+                partition.extend(inGap)
+                ## for MWE in inGap:
+                ##     partition.append("".join([unit[1] for unit in MWE]))
                         
         while ix < len(blocks):
-            ## partition.append([(ix+1, blocks[ix], ALLPOS[ix], "0")])
-            partition.append(blocks[ix])
+            partition.append([(ix+1, blocks[ix], ALLPOS[ix], "0")])
+            ## partition.append(blocks[ix])
             ix += 1
         #################
-        return partition
+        if self.compact:
+            return ["".join([unit[1] for unit in MWE]) for MWE in partition]
+        else:
+            return partition
 
     ## stochastic average partition counts of a string
     def expectation(self, text = ""):
