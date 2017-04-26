@@ -8,21 +8,34 @@ Thus, partitioner may be used to split texts "phrases" of one or more words.
 
 ## Code Example
 
-Usage for the base setup is quite simple. The following will utilize all of the English data sets, requiring significant memory to load the training data:
+To load the module, run:
 
 \>\>\> from partitioner.tools import partitioner
 
+Since the module comes with no data, running informed partitions will require acquiring the training data, which may be acquired by engaging the `.download()` method:
+
 \>\>\> pa = partitioner()
+\>\>\> pa.download()
+
+Note that the above will require responding to a prompt.
+
+Once the training data has been downloaded, the following will load all English data sets. This requires significant memory resources, but results in a high-performance model:
+
+\>\>\> pa = partitioner(language = "en", doPOS = True, doLFD = True, q = {"type": 0.77, "POS": 0.71})
 
 \>\>\> pa.partition("How could something like this simply pop up out of the blue?")
 
 ['How', ' ', 'could', ' ', 'something', ' ', 'like', ' ', 'this', ' ', 'simply', ' ', 'pop up', ' ', 'out of the blue', '?']
 
-The large data set with the memory overhead comes from English Wikipedia. While bulky, this data set provides a huge number of named entities. To load from a specific source, use:
+The memory overhead comes from an English Wikipedia data set. While bulky, this data set provides a huge number of named entities. To load from a specific English source, use:
 
 \>\>\> pa = partitioner(language="en", source="wiktionary")
 
-or one of the other data sets. To load all sets from a specific language (assuming data has been added beyond the starter data, which comes from Wikipedia), use:
+or one of the other data sets. To view all of the available datasets, check out:
+
+\>\>\> pa.datasets
+
+To load all sets from a specific language (assuming data has been added beyond the starter data, which comes from Wikipedia), use:
 
 \>\>\> pa = partitioner(language="es", source="")
 
