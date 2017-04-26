@@ -15,6 +15,7 @@ To load the module, run:
 Since the module comes with no data, running informed partitions will require acquiring the training data, which may be acquired by engaging the `.download()` method:
 
 \>\>\> pa = partitioner()
+
 \>\>\> pa.download()
 
 Note that the above will require responding to a prompt.
