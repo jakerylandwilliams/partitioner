@@ -20,9 +20,17 @@ Since the module comes with no data, running informed partitions will require ac
 
 Note that the above will require responding to a prompt.
 
+Additionally, since high-perfornace versions of the partitioner utilize the nltk package's `PerceptronTagger()` function, consider running:
+
+\>\>\> import nltk
+
+\>\>\> nltk.download()
+
+and download all nltk data.
+
 Once the training data has been downloaded, the following will load all English data sets. This requires significant memory resources, but results in a high-performance model:
 
-\>\>\> pa = partitioner(language = "en", doPOS = True, doLFD = True, q = {"type": 0.77, "POS": 0.71})
+\>\>\> pa = partitioner(language = "en", doPOS = True, doLFD = True, maxgap = 8, q = {"type": 0.74, "POS": 0.71})
 
 \>\>\> pa.partition("How could something like this simply pop up out of the blue?")
 

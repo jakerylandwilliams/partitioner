@@ -5,10 +5,11 @@ import random as ra
 import numpy as np
 from urllib2 import urlopen
 from nltk.tag.perceptron import PerceptronTagger
+from nltk.tag.mapping import map_tag
 
 class partitioner(object):
     def __init__(self, q0 = 1., C = 0., qunif = .5, lengths = 0, language = "", source = "", doPOS = False, doLFD = False, maxgap = 0, seed = None, q = {"type": 0.5, "POS": 0.5}, compact = True):
-
+        
         ## basic initialization stuff
         self.compact = compact
         self.home = os.path.dirname(os.path.realpath(__file__))
@@ -27,7 +28,8 @@ class partitioner(object):
         ## suggest downloading data if no known data sets exist
         if not len(self.datasets):
             print("It appears you have no partition data!")
-            print("Consider running '.download()'")
+            print("Please running:\n\n partitioner.download()")
+            print("Also if you have never done so before, please run: \n\nimport nltk\nnltk.download()")
         
         ## method-setting parameters
         self.doLFD = doLFD        
@@ -327,7 +329,7 @@ class partitioner(object):
             bls = [(blocks[x],x) for x in range(len(blocks)) if blocks[x] != " "]
             blks = [blk[0] for blk in bls]
             idxs = {str(bls[x][1]): x for x in range(len(bls))}
-            POSS = [tag[1] for tag in self.tagger.tag(blks)]
+            POSS = [map_tag('en-ptb', 'universal', tag[1]) for tag in self.tagger.tag(blks)]
             for x in range(len(blocks)):
                 if str(x) in idxs.keys():
                     if re.match("\#|\@|http",blocks[x]):
