@@ -50,7 +50,7 @@ To load all sets from a specific language (assuming data has been added beyond t
 
 ## Motivation
 
-The original goal of the partitioner project was to create a fast, efficient, and general algorithm that segments texts into the smallest-possible meaningful units, which we refer to as phrases. This essentially coincides with the NLP task for comprehensive MWE segmentation segmentation. Reference for this modules function may be found in the following article:
+The original goal of the partitioner project was to create a fast, efficient, and general algorithm that segments texts into the smallest-possible meaningful units, which we refer to as phrases. This essentially coincides with the NLP task for comprehensive MWE segmentation. Reference for this module's function may be found in the following article:
 
 https://arxiv.org/pdf/1608.02025.pdf
 
@@ -60,7 +60,7 @@ Using pip from the command line:
 
 \>\>\> pip install partitioner
 
-Alternatively, if using git from a command line first clone the repository:
+If using git from a command line, first clone the repository:
 
 \>\>\> git clone https://github.com/jakerylandwilliams/partitioner.git
 
