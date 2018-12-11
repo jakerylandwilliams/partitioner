@@ -3,7 +3,7 @@ import re, json, os
 import math as ma
 import random as ra
 import numpy as np
-from urllib2 import urlopen
+from urllib.request import urlopen
 from nltk.tag.perceptron import PerceptronTagger
 from nltk.tag.mapping import map_tag
 
@@ -15,7 +15,7 @@ class partitioner(object):
         self.home = os.path.dirname(os.path.realpath(__file__))
         self.isPartition = False ## special flag makes sure 1-off partitions not thrown in expectations!
         with open(self.home+"/data/chars.txt","r") as f: ## load in the word characters
-            self.chars = f.read().strip().decode('utf8')
+            self.chars = f.read().strip()
             self.chars = re.sub(" ", "",self.chars)
 
         ## check the data inventory
@@ -47,7 +47,7 @@ class partitioner(object):
         if lengths:
             for length in lengths:
                 if not isinstance(length,(int, long)) and length > 0:
-                    print "specified lengths must be a positive integers!"
+                    print("specified lengths must be a positive integers!")
                     return
         self.lengths = lengths
 
@@ -95,10 +95,10 @@ class partitioner(object):
         for choice in map(str,range(1,len(choices)+1)):
             print(choice+") "+choices[choice])
         print("-1) Cancel download")
-        choice = raw_input("Please enter an option's number from the above: ")
+        choice = input("Please enter an option's number from the above: ")
         while choice != "0" and choice != "-1" and choice not in choices:
             print(choice+" was not a valid choice!")
-            choice = raw_input("Please enter an option's number from the above: ")
+            choice = input("Please enter an option's number from the above: ")
 
         ## download data or return
         if choice == "-1":
@@ -178,7 +178,7 @@ class partitioner(object):
                 for k, d in counts:
                     for ky in ["type", "POS"]:
                         for countkey, pairs in d[ky].items():
-                            cts = map(int,re.split(",", countkey))
+                            cts = list(map(int,re.split(",", countkey)))
                             for pair in pairs:
                                 self.counts[k][ky].setdefault(pair, [0.,0.])
                                 self.counts[k][ky][pair][0] += cts[0]/denoms[k][ky]
@@ -380,7 +380,7 @@ class partitioner(object):
     def partition(self, text = ""):
         self.isPartition = True
         partition = []
-        blocks, ALLPOS = self.process(text.decode("utf8"))
+        blocks, ALLPOS = self.process(text)
         
         ALLattached = {str(i): 0 for i in range(len(blocks)) if blocks[i] != " "} 
         ALLconnections = []
