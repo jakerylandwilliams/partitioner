@@ -52,7 +52,7 @@ To load all sets from a specific language (assuming data has been added beyond t
 
 The original goal of the partitioner project was to create a fast, efficient, and general algorithm that segments texts into the smallest-possible meaningful units, which we refer to as phrases. This essentially coincides with the NLP task for comprehensive MWE segmentation. Reference for this module's function may be found in the following article:
 
-https://arxiv.org/pdf/1608.02025.pdf
+https://noisy-text.github.io/2017/pdf/WNUT01.pdf (Preprint Version here: https://arxiv.org/abs/1608.02025)
 
 ## Installation
 
